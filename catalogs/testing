@@ -1315,8 +1315,12 @@ fi
 			<string>testing</string>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Internet Browsers</string>
 		<key>description</key>
 		<string>Opera products enable more than 350 million internet consumers to discover and connect with the content and services that matter most to them, no matter what device, network or location. In turn, we help advertisers reach the audiences that build value for their businesses. Opera also delivers products and services to more than 120 operators around the world, enabling them to provide a faster, more economical and better network experience to their subscribers.</string>
+		<key>developer</key>
+		<string>Opera Software Asa</string>
 		<key>display_name</key>
 		<string>Opera</string>
 		<key>icon_hash</key>
@@ -1447,8 +1451,12 @@ fi
 			<string>testing</string>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Email</string>
 		<key>description</key>
 		<string>Mozilla Thunderbird is a free and open source mail client.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
 		<key>display_name</key>
 		<string>Mozilla Thunderbird</string>
 		<key>icon_hash</key>
@@ -1802,6 +1810,8 @@ fi
 			<string>testing</string>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Office</string>
 		<key>description</key>
 		<string>&lt;html&gt;&lt;p&gt;This update improves security. It includes fixes for vulnerabilities that an attacker can use to overwrite the contents of your computer's memory with malicious code.&lt;/p&gt;
 
@@ -1811,6 +1821,8 @@ fi
 
 &lt;p&gt;For additional assistance, or to obtain a downloadable version of this update, visit the &lt;a href="http://go.microsoft.com/fwlink/?LinkId=216459" target="_blank"&gt;Microsoft Web site&lt;/a&gt;.&lt;/p&gt;
 &lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Office 2011 14.5.3 Update</string>
 		<key>icon_hash</key>
@@ -3165,8 +3177,12 @@ done
 			<string>testing</string>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Utilities</string>
 		<key>description</key>
 		<string>Transmit is an excellent FTP (file transfer protocol), SFTP, S3 (Amazon.com file hosting) and iDisk/WebDAV client that allows you to upload, download, and delete files over the internet. With the most Mac-like interface available, Transmit makes FTP as simple, fun, and easy as it can possibly be.</string>
+		<key>developer</key>
+		<string>Panic Inc.</string>
 		<key>display_name</key>
 		<string>Transmit</string>
 		<key>icon_hash</key>
@@ -3559,8 +3575,12 @@ done
 			<string>testing</string>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Multimedia</string>
 		<key>description</key>
 		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>developer</key>
+		<string>Adobe</string>
 		<key>display_name</key>
 		<string>Adobe Flash Player</string>
 		<key>icon_hash</key>
@@ -3678,8 +3698,12 @@ done
 			<string>testing</string>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Multimedia</string>
 		<key>description</key>
 		<string>Java SE Runtime Environment 8 enables support for running Java-powered applets and applications.</string>
+		<key>developer</key>
+		<string>Oracle</string>
 		<key>display_name</key>
 		<string>Oracle Java 8</string>
 		<key>icon_hash</key>

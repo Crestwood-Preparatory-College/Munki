@@ -20,8 +20,12 @@
 		<string>testing</string>
 		<string>production</string>
 	</array>
+	<key>category</key>
+	<string>Email</string>
 	<key>description</key>
 	<string>Mozilla Thunderbird is a free and open source mail client.</string>
+	<key>developer</key>
+	<string>Mozilla</string>
 	<key>display_name</key>
 	<string>Mozilla Thunderbird</string>
 	<key>installer_item_hash</key>

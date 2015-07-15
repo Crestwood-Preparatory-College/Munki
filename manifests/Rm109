@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>included_manifests</key>
+	<array>
+		<string>CPC Master</string>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>Audacity</string>
+		<string>GameSalad</string>
+		<string>GIMP</string>
+		<string>GitHub</string>
+		<string>Office2011_update</string>
+		<string>OpenOffice</string>
+		<string>Safe Exam Browser</string>
+		<string>TextWrangler</string>
+		<string>WinclonePro4</string>
+	</array>
+	<key>optional_installs</key>
+	<array>
+		<string>OS X 10.10.4 Yosemite</string>
+	</array>
+</dict>
+</plist>

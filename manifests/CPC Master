@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalogs</key>
+	<array>
+		<string>production</string>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>AdobeAIR</string>
+		<string>AdobeFlashPlayer</string>
+		<string>Firefox</string>
+		<string>GoogleChrome</string>
+		<string>munkireport</string>
+		<string>munkitools</string>
+		<string>munkitools_admin</string>
+		<string>munkitools_core</string>
+		<string>munkitools_launchd</string>
+		<string>OracleJava8</string>
+		<string>Silverlight</string>
+		<string>Skype</string>
+		<string>TheUnarchiver</string>
+		<string>VLC</string>
+	</array>
+	<key>managed_uninstalls</key>
+	<array>
+		<string>FirstClassRemoval</string>
+		<string>OpenOffice.orgRemoval</string>
+	</array>
+	<key>optional_installs</key>
+	<array>
+		<string>GameSalad</string>
+		<string>GIMP</string>
+		<string>GitHub</string>
+		<string>Handbrake</string>
+		<string>OpenOffice</string>
+		<string>Opera</string>
+		<string>OS X 10.10.4 Yosemite</string>
+		<string>Safe Exam Browser</string>
+		<string>TextWrangler</string>
+		<string>Thunderbird</string>
+		<string>Transmit</string>
+		<string>WinclonePro4</string>
+	</array>
+</dict>
+</plist>

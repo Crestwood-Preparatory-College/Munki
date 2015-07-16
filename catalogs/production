@@ -3239,60 +3239,6 @@ done
 		<string>4.4.8</string>
 	</dict>
 	<dict>
-		<key>RestartAction</key>
-		<string>RequireRestart</string>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>testing</string>
-			<string>production</string>
-		</array>
-		<key>category</key>
-		<string>Operating Systems</string>
-		<key>description</key>
-		<string>Upgrade to OS X 10.10.4 (Yosemite)</string>
-		<key>developer</key>
-		<string>Apple, Inc.</string>
-		<key>display_name</key>
-		<string>OS X 10.10.4 Yosemite</string>
-		<key>icon_hash</key>
-		<string>e6e2290c03d5423a7d037d9f24d88df60123b5baab3266cd997cfd5813fecfc1</string>
-		<key>installed_size</key>
-		<integer>8388608</integer>
-		<key>installer_item_hash</key>
-		<string>25567754a7bd7410f2d643dfd91d1ba4e429b372be5de67dc3579d5b556ab42b</string>
-		<key>installer_item_location</key>
-		<string>OS/OS X 10.10.4.dmg</string>
-		<key>installer_item_size</key>
-		<integer>5536091</integer>
-		<key>maximum_os_version</key>
-		<string>10.9.99</string>
-		<key>minimum_os_version</key>
-		<string>10.4.0</string>
-		<key>name</key>
-		<string>OS X 10.10.4 Yosemite</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>filename</key>
-				<string>OS X 10.10.4.pkg</string>
-				<key>installed_size</key>
-				<integer>8388608</integer>
-				<key>packageid</key>
-				<string>com.googlecode.munki.installosx.pkg</string>
-				<key>version</key>
-				<string>10.10.4</string>
-			</dict>
-		</array>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>10.10.4</string>
-	</dict>
-	<dict>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>

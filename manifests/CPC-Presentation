@@ -5,6 +5,8 @@
 	<key>catalogs</key>
 	<array>
 		<string>production</string>
+		<string>development</string>
+		<string>testing</string>
 	</array>
 	<key>included_manifests</key>
 	<array>

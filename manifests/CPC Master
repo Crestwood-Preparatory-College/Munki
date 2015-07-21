@@ -30,6 +30,7 @@
 	</array>
 	<key>optional_installs</key>
 	<array>
+		<string>1Password</string>
 		<string>GameSalad</string>
 		<string>GIMP</string>
 		<string>GitHub</string>

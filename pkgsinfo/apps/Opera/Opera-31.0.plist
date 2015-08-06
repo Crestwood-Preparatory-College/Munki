@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2015-07-21T21:51:20Z</date>
+		<date>2015-08-06T13:34:10Z</date>
 		<key>munki_version</key>
 		<string>2.2.4.2431</string>
 		<key>os_version</key>
@@ -18,39 +18,38 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
-		<string>production</string>
 	</array>
 	<key>category</key>
 	<string>Internet Browsers</string>
 	<key>description</key>
-	<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+	<string>Opera products enable more than 350 million internet consumers to discover and connect with the content and services that matter most to them, no matter what device, network or location. In turn, we help advertisers reach the audiences that build value for their businesses. Opera also delivers products and services to more than 120 operators around the world, enabling them to provide a faster, more economical and better network experience to their subscribers.</string>
 	<key>developer</key>
-	<string>Google</string>
+	<string>Opera Software Asa</string>
 	<key>display_name</key>
-	<string>Google Chrome</string>
+	<string>Opera</string>
 	<key>installer_item_hash</key>
-	<string>32a2a709fe07c8a433b08fc0996bc2b0b284f94422cbb590d3b8586d1d773d3a</string>
+	<string>607a7050f3c7114798946a185cafefc716a0ec2a8e2bd0820f63998ecf58e4f2</string>
 	<key>installer_item_location</key>
-	<string>apps/GoogleChrome-44.0.2403.89.dmg</string>
+	<string>apps/Opera/Opera-31.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>64653</integer>
+	<integer>53089</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.google.Chrome</string>
+			<string>com.operasoftware.Opera</string>
 			<key>CFBundleName</key>
-			<string>Chrome</string>
+			<string>Opera</string>
 			<key>CFBundleShortVersionString</key>
-			<string>44.0.2403.89</string>
+			<string>31.0</string>
 			<key>CFBundleVersion</key>
-			<string>2403.89</string>
+			<string>31.0.1889.99</string>
 			<key>minosversion</key>
-			<string>10.6.0</string>
+			<string>10.7.0</string>
 			<key>path</key>
-			<string>/Applications/Google Chrome.app</string>
+			<string>/Applications/Opera.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -63,13 +62,13 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Google Chrome.app</string>
+			<string>Opera.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.6.0</string>
+	<string>10.7.0</string>
 	<key>name</key>
-	<string>GoogleChrome</string>
+	<string>Opera</string>
 	<key>unattended_install</key>
 	<true/>
 	<key>uninstall_method</key>
@@ -77,6 +76,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>44.0.2403.89</string>
+	<string>31.0</string>
 </dict>
 </plist>

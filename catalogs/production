@@ -733,8 +733,12 @@ rm -R /Applications/FirstClass.app</string>
 			<string>testing</string>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Internet Browsers</string>
 		<key>description</key>
 		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
 		<key>display_name</key>
 		<string>Google Chrome</string>
 		<key>icon_hash</key>
@@ -1002,52 +1006,6 @@ rm -R /Applications/FirstClass.app</string>
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>production</string>
-			<string>testing</string>
-		</array>
-		<key>category</key>
-		<string>Information Technology</string>
-		<key>description</key>
-		<string>MunkiReport gathers data on computers for maintenance.</string>
-		<key>developer</key>
-		<string>MunkiReportPHP</string>
-		<key>display_name</key>
-		<string>munkireport-2.4.2</string>
-		<key>installed_size</key>
-		<integer>53</integer>
-		<key>installer_item_hash</key>
-		<string>d2ab9e9ad925770c22ab09f7688dd2272a2b3edb7096d073a42c3040c41adb4d</string>
-		<key>installer_item_location</key>
-		<string>apps/munkireport-2.4.2.pkg</string>
-		<key>installer_item_size</key>
-		<integer>16</integer>
-		<key>minimum_os_version</key>
-		<string>10.5.0</string>
-		<key>name</key>
-		<string>munkireport</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>53</integer>
-				<key>packageid</key>
-				<string>com.github.munkireport</string>
-				<key>version</key>
-				<string>2.4.2</string>
-			</dict>
-		</array>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>2.4.2</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
 			<string>testing</string>
 			<string>production</string>
 		</array>
@@ -1111,6 +1069,75 @@ rm -R /Applications/FirstClass.app</string>
 		<true/>
 		<key>version</key>
 		<string>2.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Browsers</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>icon_hash</key>
+		<string>5cbec5cdef65ede7d4a2f6899e3e9343bb7d6c2285f1b1e217e07b635e21f839</string>
+		<key>installer_item_hash</key>
+		<string>882d60a4c68eb1b128870dda7da409e848f70fed369fcacadfafe3ca0a59f30c</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-44.0.2403.107.dmg</string>
+		<key>installer_item_size</key>
+		<integer>64659</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>44.0.2403.107</string>
+				<key>CFBundleVersion</key>
+				<string>2403.107</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>44.0.2403.107</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -1242,6 +1269,52 @@ rm -R /Applications/FirstClass.app</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Information Technology</string>
+		<key>description</key>
+		<string>MunkiReport gathers data on computers for maintenance.</string>
+		<key>developer</key>
+		<string>MunkiReportPHP</string>
+		<key>display_name</key>
+		<string>munkireport-2.5.2</string>
+		<key>installed_size</key>
+		<integer>79</integer>
+		<key>installer_item_hash</key>
+		<string>8bbcc64ae29f58770abfffff4d48283fca3e938085be92ed8926ea3acec75ee2</string>
+		<key>installer_item_location</key>
+		<string>apps/munkireport-2.5.0-2.5.2.pkg</string>
+		<key>installer_item_size</key>
+		<integer>24</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>munkireport</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>79</integer>
+				<key>packageid</key>
+				<string>com.github.munkireport</string>
+				<key>version</key>
+				<string>2.5.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.5.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
 		<true/>
 		<key>catalogs</key>
 		<array>
@@ -1359,6 +1432,73 @@ rm -R /Applications/OpenOffice.org.app</string>
 		<true/>
 		<key>version</key>
 		<string>7.9.0.746</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Communication</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>icon_hash</key>
+		<string>434fa31eed2db112b701b760460d7b78d6cb8e9eb8f7678967ba9c32674a41ce</string>
+		<key>installer_item_hash</key>
+		<string>bd2ef9e7d3a551a230b91db055fe86ffe9ef564a43995bd248b9ca3a4c2da33d</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.10.0.776.dmg</string>
+		<key>installer_item_size</key>
+		<integer>42062</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.10</string>
+				<key>CFBundleVersion</key>
+				<string>7.10.0.776</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.10.0.776</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -1516,6 +1656,73 @@ fi
 		<true/>
 		<key>version</key>
 		<string>30.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Multimedia</string>
+		<key>description</key>
+		<string>Audacity is a free, easy-to-use, multi-track audio editor and recorder for Windows, Mac OS X, GNU/Linux and other operating systems.</string>
+		<key>developer</key>
+		<string>The Audacity Team</string>
+		<key>display_name</key>
+		<string>Audacity</string>
+		<key>icon_hash</key>
+		<string>cfcb183cca4ea3ce0c271a536a573d9c8fc3fdb13150af714ace18e20ca61bcb</string>
+		<key>installer_item_hash</key>
+		<string>266fa1b2f3aff3894730a8b0e9fcf5c24c93e726f15180855d2516c5c44de10e</string>
+		<key>installer_item_location</key>
+		<string>apps/Audacity/audacity-macosx-ub-2.1.1-2.1.1.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>36131</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>net.sourceforge.audacity</string>
+				<key>CFBundleName</key>
+				<string>Audacity</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.1.1.0</string>
+				<key>CFBundleVersion</key>
+				<string>2.1.1.0</string>
+				<key>path</key>
+				<string>/Applications/Audacity/Audacity.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Audacity</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Audacity</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.1.1.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -3240,6 +3447,75 @@ done
 		<true/>
 		<key>version</key>
 		<string>0.13.30</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Development</string>
+		<key>description</key>
+		<string>If you want to make games, what are you waiting for? With GameSalad Creator you can learn the basics and start making games in about an hour. That’s right. You can make your first game in about an hour.</string>
+		<key>developer</key>
+		<string>GameSalad Inc.</string>
+		<key>display_name</key>
+		<string>GameSalad</string>
+		<key>icon_hash</key>
+		<string>b4328b4cb924376cadb49e3b4f3972d3476c8c1d52337e0e7c757fecdc7b897e</string>
+		<key>installer_item_hash</key>
+		<string>dfd472adbe76f924e0f721d69f5395e473cad4e782c55caf32634f8f091eb997</string>
+		<key>installer_item_location</key>
+		<string>apps/GameSalad/GameSalad-0.13.32.dmg</string>
+		<key>installer_item_size</key>
+		<integer>30814</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.gendaigames.GameSalad</string>
+				<key>CFBundleName</key>
+				<string>GameSalad</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.13.32</string>
+				<key>CFBundleVersion</key>
+				<string>0.13.32</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/GameSalad.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>GameSalad.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>GameSalad</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.13.32</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

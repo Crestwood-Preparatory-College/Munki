@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2015-07-21T21:51:20Z</date>
+		<date>2015-08-06T13:31:28Z</date>
 		<key>munki_version</key>
 		<string>2.2.4.2431</string>
 		<key>os_version</key>
@@ -18,39 +18,38 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
-		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Internet Browsers</string>
+	<string>Development</string>
 	<key>description</key>
-	<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+	<string>If you want to make games, what are you waiting for? With GameSalad Creator you can learn the basics and start making games in about an hour. That’s right. You can make your first game in about an hour.</string>
 	<key>developer</key>
-	<string>Google</string>
+	<string>GameSalad Inc.</string>
 	<key>display_name</key>
-	<string>Google Chrome</string>
+	<string>GameSalad</string>
 	<key>installer_item_hash</key>
-	<string>32a2a709fe07c8a433b08fc0996bc2b0b284f94422cbb590d3b8586d1d773d3a</string>
+	<string>e973cf48ded0d468f35beddfb80fd3921c05dba9a6facf2cb2a7ccd46b1eab98</string>
 	<key>installer_item_location</key>
-	<string>apps/GoogleChrome-44.0.2403.89.dmg</string>
+	<string>apps/GameSalad/GameSalad-0.13.33.dmg</string>
 	<key>installer_item_size</key>
-	<integer>64653</integer>
+	<integer>30879</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.google.Chrome</string>
+			<string>com.gendaigames.GameSalad</string>
 			<key>CFBundleName</key>
-			<string>Chrome</string>
+			<string>GameSalad</string>
 			<key>CFBundleShortVersionString</key>
-			<string>44.0.2403.89</string>
+			<string>0.13.33</string>
 			<key>CFBundleVersion</key>
-			<string>2403.89</string>
+			<string>0.13.33</string>
 			<key>minosversion</key>
-			<string>10.6.0</string>
+			<string>10.7.0</string>
 			<key>path</key>
-			<string>/Applications/Google Chrome.app</string>
+			<string>/Applications/GameSalad.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -63,13 +62,13 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Google Chrome.app</string>
+			<string>GameSalad.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.6.0</string>
+	<string>10.7.0</string>
 	<key>name</key>
-	<string>GoogleChrome</string>
+	<string>GameSalad</string>
 	<key>unattended_install</key>
 	<true/>
 	<key>uninstall_method</key>
@@ -77,6 +76,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>44.0.2403.89</string>
+	<string>0.13.33</string>
 </dict>
 </plist>

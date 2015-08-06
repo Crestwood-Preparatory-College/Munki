@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2015-07-21T21:51:20Z</date>
+		<date>2015-08-06T13:25:57Z</date>
 		<key>munki_version</key>
 		<string>2.2.4.2431</string>
 		<key>os_version</key>
@@ -18,7 +18,6 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
-		<string>production</string>
 	</array>
 	<key>category</key>
 	<string>Internet Browsers</string>
@@ -29,11 +28,11 @@
 	<key>display_name</key>
 	<string>Google Chrome</string>
 	<key>installer_item_hash</key>
-	<string>32a2a709fe07c8a433b08fc0996bc2b0b284f94422cbb590d3b8586d1d773d3a</string>
+	<string>fad7204653d65c4e567ea2979747726cd1bd05b8c73264b69c660947e457e57d</string>
 	<key>installer_item_location</key>
-	<string>apps/GoogleChrome-44.0.2403.89.dmg</string>
+	<string>apps/GoogleChrome-44.0.2403.130.dmg</string>
 	<key>installer_item_size</key>
-	<integer>64653</integer>
+	<integer>64659</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
@@ -44,9 +43,9 @@
 			<key>CFBundleName</key>
 			<string>Chrome</string>
 			<key>CFBundleShortVersionString</key>
-			<string>44.0.2403.89</string>
+			<string>44.0.2403.130</string>
 			<key>CFBundleVersion</key>
-			<string>2403.89</string>
+			<string>2403.130</string>
 			<key>minosversion</key>
 			<string>10.6.0</string>
 			<key>path</key>
@@ -77,6 +76,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>44.0.2403.89</string>
+	<string>44.0.2403.130</string>
 </dict>
 </plist>

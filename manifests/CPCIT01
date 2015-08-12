@@ -6,6 +6,7 @@
 	<array>
 		<string>testing</string>
 		<string>development</string>
+		<string>production</string>
 	</array>
 	<key>included_manifests</key>
 	<array>

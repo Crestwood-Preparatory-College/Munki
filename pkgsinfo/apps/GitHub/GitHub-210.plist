@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>aanklewicz</string>
+		<key>creation_date</key>
+		<date>2015-08-19T13:17:40Z</date>
+		<key>munki_version</key>
+		<string>2.3.0.2517</string>
+		<key>os_version</key>
+		<string>10.10.4</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>production</string>
+	</array>
+	<key>category</key>
+	<string>Programming</string>
+	<key>description</key>
+	<string>GUI application for GitHub.com</string>
+	<key>developer</key>
+	<string>GitHub</string>
+	<key>display_name</key>
+	<string>GitHub</string>
+	<key>installer_item_hash</key>
+	<string>0dad7cf842c77e2ff135516e253e5a19d4d52d365304a2b208d43509f0e25519</string>
+	<key>installer_item_location</key>
+	<string>apps/GitHub/GitHub-210.dmg</string>
+	<key>installer_item_size</key>
+	<integer>27115</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.github.GitHub</string>
+			<key>CFBundleName</key>
+			<string>GitHub Desktop</string>
+			<key>CFBundleShortVersionString</key>
+			<string>Bae's Branch</string>
+			<key>CFBundleVersion</key>
+			<string>210</string>
+			<key>minosversion</key>
+			<string>10.9</string>
+			<key>path</key>
+			<string>/Applications/GitHub Desktop.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>GitHub Desktop.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.9</string>
+	<key>name</key>
+	<string>GitHub</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/sh
+CLI_SOURCE="/Applications/GitHub.app/Contents/MacOS/github_cli"
+DEST_DIR="/usr/local/bin"
+if [ ! -x "${CLI_SOURCE}" ]; then
+    exit 1
+fi
+
+if [ ! -d "${DEST_DIR}" ]; then
+    /bin/mkdir -p "${DEST_DIR}"
+fi
+
+/bin/cp -f "${CLI_SOURCE}" "${DEST_DIR}/github"
+</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>uninstall_script</string>
+	<key>uninstall_script</key>
+	<string>#!/bin/sh
+/bin/rm -rf /Applications/GitHub.app
+/bin/rm -f /usr/local/bin/github
+</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>210</string>
+</dict>
+</plist>

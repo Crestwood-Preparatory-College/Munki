@@ -7,6 +7,70 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>Will uncompress RAR files.</string>
+		<key>developer</key>
+		<string>UnRarX</string>
+		<key>display_name</key>
+		<string>UnRarX</string>
+		<key>icon_hash</key>
+		<string>95ce6f351174b8af21169e349f9a4018786d4e76cda5ea77a629016abe989b6c</string>
+		<key>installer_item_hash</key>
+		<string>51b33c692d1ec4081b4f49522991b3a4c8402acdb8a06f8df525e21ef723d6d8</string>
+		<key>installer_item_location</key>
+		<string>UnRarX-2.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>782</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.peternoriega.unrarx</string>
+				<key>CFBundleName</key>
+				<string>UnRarX</string>
+				<key>CFBundleShortVersionString</key>
+				<string>Version 2.2</string>
+				<key>CFBundleVersion</key>
+				<string>2.2</string>
+				<key>path</key>
+				<string>/Applications/UnRarX.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>UnRarX.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>UnRarX</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
 			<string>testing</string>
 			<string>production</string>
 		</array>
@@ -2271,6 +2335,75 @@ fi
 		<true/>
 		<key>version</key>
 		<string>38.1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Email</string>
+		<key>description</key>
+		<string>Mozilla Thunderbird is a free and open source mail client.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Thunderbird</string>
+		<key>icon_hash</key>
+		<string>c60719061cfb37441d2c32a445e726957cf41c16b31674ec4e227045138a1383</string>
+		<key>installer_item_hash</key>
+		<string>22fbba726dcb409b5ad48c35f02de7fe7544193b3a9faa108f4c85a38f20ae03</string>
+		<key>installer_item_location</key>
+		<string>apps/thunderbird/Thunderbird-38.2.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>68360</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.thunderbird</string>
+				<key>CFBundleName</key>
+				<string>Thunderbird</string>
+				<key>CFBundleShortVersionString</key>
+				<string>38.2.0</string>
+				<key>CFBundleVersion</key>
+				<string>38.2.0</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Thunderbird.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Thunderbird.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Thunderbird</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>38.2.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -4902,6 +5035,7 @@ done
 		<array>
 			<string>development</string>
 			<string>production</string>
+			<string>testing</string>
 		</array>
 		<key>category</key>
 		<string>Information Technology</string>
@@ -4958,6 +5092,7 @@ done
 		<array>
 			<string>development</string>
 			<string>production</string>
+			<string>testing</string>
 		</array>
 		<key>category</key>
 		<string>Information Technology</string>
@@ -5013,6 +5148,7 @@ done
 		<array>
 			<string>development</string>
 			<string>production</string>
+			<string>testing</string>
 		</array>
 		<key>category</key>
 		<string>Information Technology</string>

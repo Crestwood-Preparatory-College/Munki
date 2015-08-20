@@ -19,6 +19,7 @@
 	<array>
 		<string>development</string>
 		<string>production</string>
+		<string>testing</string>
 	</array>
 	<key>category</key>
 	<string>Information Technology</string>

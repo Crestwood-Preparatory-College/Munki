@@ -7,6 +7,57 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
+			<string>production</string>
+			<string>development</string>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Multimedia</string>
+		<key>description</key>
+		<string>Animation software for TGJ course.</string>
+		<key>developer</key>
+		<string>ToonBoom</string>
+		<key>display_name</key>
+		<string>ToonBoom Harmony 12.1</string>
+		<key>icon_hash</key>
+		<string>d5216d352fdcea1f9424cd9eed817e84b7a31356fa562550374d0787f52d40ce</string>
+		<key>icon_name</key>
+		<string>ToonBoom Harmony_2.png</string>
+		<key>installed_size</key>
+		<integer>237</integer>
+		<key>installer_item_hash</key>
+		<string>b57449622dbc82a01278fc6b6359466ea3d338a49cfde6f5cead6e9d915d1280</string>
+		<key>installer_item_location</key>
+		<string>ToonBoom Harmony 12.1-12.1.1.pkg</string>
+		<key>installer_item_size</key>
+		<integer>242297</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>ToonBoom Harmony</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>237</integer>
+				<key>packageid</key>
+				<string>toonboomharmony12.1</string>
+				<key>version</key>
+				<string>12.1.1</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>12.1.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
 			<string>development</string>
 			<string>production</string>
 			<string>testing</string>

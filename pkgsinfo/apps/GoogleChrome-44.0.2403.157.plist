@@ -5,9 +5,9 @@
 	<key>_metadata</key>
 	<dict>
 		<key>created_by</key>
-		<string>root</string>
+		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2015-08-20T15:01:03Z</date>
+		<date>2015-08-21T15:02:26Z</date>
 		<key>munki_version</key>
 		<string>2.3.0.2519</string>
 		<key>os_version</key>
@@ -17,44 +17,44 @@
 	<false/>
 	<key>catalogs</key>
 	<array>
-		<string>production</string>
 		<string>testing</string>
+		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Utilities</string>
+	<string>Internet Browsers</string>
 	<key>description</key>
-	<string>Will uncompress RAR files.</string>
+	<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
 	<key>developer</key>
-	<string>UnRarX</string>
+	<string>Google</string>
 	<key>display_name</key>
-	<string>UnRarX</string>
-	<key>icon_hash</key>
-	<string>95ce6f351174b8af21169e349f9a4018786d4e76cda5ea77a629016abe989b6c</string>
+	<string>Google Chrome</string>
 	<key>installer_item_hash</key>
-	<string>51b33c692d1ec4081b4f49522991b3a4c8402acdb8a06f8df525e21ef723d6d8</string>
+	<string>ece29d61b71be5f3c6c28aed5e57aa8811cba1d64ac508598c353c78f36bfe38</string>
 	<key>installer_item_location</key>
-	<string>UnRarX-2.2.dmg</string>
+	<string>apps/GoogleChrome-44.0.2403.157.dmg</string>
 	<key>installer_item_size</key>
-	<integer>782</integer>
+	<integer>64370</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.peternoriega.unrarx</string>
+			<string>com.google.Chrome</string>
 			<key>CFBundleName</key>
-			<string>UnRarX</string>
+			<string>Chrome</string>
 			<key>CFBundleShortVersionString</key>
-			<string>Version 2.2</string>
+			<string>44.0.2403.157</string>
 			<key>CFBundleVersion</key>
-			<string>2.2</string>
+			<string>2403.157</string>
+			<key>minosversion</key>
+			<string>10.6.0</string>
 			<key>path</key>
-			<string>/Applications/UnRarX.app</string>
+			<string>/Applications/Google Chrome.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
-			<string>CFBundleVersion</string>
+			<string>CFBundleShortVersionString</string>
 		</dict>
 	</array>
 	<key>items_to_copy</key>
@@ -63,18 +63,20 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>UnRarX.app</string>
+			<string>Google Chrome.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.4.0</string>
+	<string>10.6.0</string>
 	<key>name</key>
-	<string>UnRarX</string>
+	<string>GoogleChrome</string>
+	<key>unattended_install</key>
+	<true/>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>2.2</string>
+	<string>44.0.2403.157</string>
 </dict>
 </plist>

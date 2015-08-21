@@ -7,6 +7,71 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
+			<string>production</string>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>Will uncompress RAR files.</string>
+		<key>developer</key>
+		<string>UnRarX</string>
+		<key>display_name</key>
+		<string>UnRarX</string>
+		<key>icon_hash</key>
+		<string>95ce6f351174b8af21169e349f9a4018786d4e76cda5ea77a629016abe989b6c</string>
+		<key>installer_item_hash</key>
+		<string>51b33c692d1ec4081b4f49522991b3a4c8402acdb8a06f8df525e21ef723d6d8</string>
+		<key>installer_item_location</key>
+		<string>UnRarX-2.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>782</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.peternoriega.unrarx</string>
+				<key>CFBundleName</key>
+				<string>UnRarX</string>
+				<key>CFBundleShortVersionString</key>
+				<string>Version 2.2</string>
+				<key>CFBundleVersion</key>
+				<string>2.2</string>
+				<key>path</key>
+				<string>/Applications/UnRarX.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>UnRarX.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>UnRarX</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
 			<string>testing</string>
 			<string>production</string>
 		</array>
@@ -1615,6 +1680,75 @@ rm -R /Applications/OpenOffice.org.app</string>
 		<true/>
 		<key>version</key>
 		<string>7.9.0.746</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Browsers</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>icon_hash</key>
+		<string>5cbec5cdef65ede7d4a2f6899e3e9343bb7d6c2285f1b1e217e07b635e21f839</string>
+		<key>installer_item_hash</key>
+		<string>ece29d61b71be5f3c6c28aed5e57aa8811cba1d64ac508598c353c78f36bfe38</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-44.0.2403.157.dmg</string>
+		<key>installer_item_size</key>
+		<integer>64370</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>44.0.2403.157</string>
+				<key>CFBundleVersion</key>
+				<string>2403.157</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>44.0.2403.157</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -4820,6 +4954,75 @@ done
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Development</string>
+		<key>description</key>
+		<string>If you want to make games, what are you waiting for? With GameSalad Creator you can learn the basics and start making games in about an hour. That’s right. You can make your first game in about an hour.</string>
+		<key>developer</key>
+		<string>GameSalad Inc.</string>
+		<key>display_name</key>
+		<string>GameSalad</string>
+		<key>icon_hash</key>
+		<string>b4328b4cb924376cadb49e3b4f3972d3476c8c1d52337e0e7c757fecdc7b897e</string>
+		<key>installer_item_hash</key>
+		<string>1bc7f6e42dbae4f265cbaeb936bae4a5e871ce024ae6f634d1f12691f2321fc5</string>
+		<key>installer_item_location</key>
+		<string>apps/GameSalad/GameSalad-0.13.36.dmg</string>
+		<key>installer_item_size</key>
+		<integer>31452</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.gendaigames.GameSalad</string>
+				<key>CFBundleName</key>
+				<string>GameSalad</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.13.36</string>
+				<key>CFBundleVersion</key>
+				<string>0.13.36</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/GameSalad.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>GameSalad.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>GameSalad</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.13.36</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
 		</array>
 		<key>category</key>
 		<string>Development</string>
@@ -5465,6 +5668,149 @@ done
 		<true/>
 		<key>version</key>
 		<string>4.0.2413</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Information Technology</string>
+		<key>description</key>
+		<string>Facter is an independent, cross-platform Ruby library designed to gather information on all the nodes you will managing with Puppet.</string>
+		<key>developer</key>
+		<string>Puppetlabs</string>
+		<key>display_name</key>
+		<string>Facter</string>
+		<key>installed_size</key>
+		<integer>397</integer>
+		<key>installer_item_hash</key>
+		<string>84212e09e30e174a84ac77227496055f6708eb853fb34a02ad290e6bb4cf9e34</string>
+		<key>installer_item_location</key>
+		<string>support/Facter/Facter-2.4.4.dmg</string>
+		<key>installer_item_size</key>
+		<integer>115</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Facter</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>397</integer>
+				<key>packageid</key>
+				<string>com.puppetlabs.facter</string>
+				<key>version</key>
+				<string>2.4.4</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.4.4</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Information Technology</string>
+		<key>description</key>
+		<string>Hiera is a simple pluggable Hierarchical Database.</string>
+		<key>developer</key>
+		<string>Puppetlabs</string>
+		<key>display_name</key>
+		<string>Hiera</string>
+		<key>installed_size</key>
+		<integer>72</integer>
+		<key>installer_item_hash</key>
+		<string>f0c5342b09b6f48c727ded033e03d207313d3ebf12d41b50b0f2f71fd1c411e9</string>
+		<key>installer_item_location</key>
+		<string>support/Hiera/Hiera-1.3.4.dmg</string>
+		<key>installer_item_size</key>
+		<integer>33</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Hiera</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>72</integer>
+				<key>packageid</key>
+				<string>com.puppetlabs.hiera</string>
+				<key>version</key>
+				<string>1.3.4</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.3.4</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Information Technology</string>
+		<key>description</key>
+		<string>Puppet is a configuration management solution that allows you to define the state of your IT infrastructure, and then automatically enforces the desired state</string>
+		<key>developer</key>
+		<string>Puppetlabs</string>
+		<key>display_name</key>
+		<string>Puppet Agent</string>
+		<key>installed_size</key>
+		<integer>55019</integer>
+		<key>installer_item_hash</key>
+		<string>e6879de3bf3bfdcc608a68f9203bf4c9ceae8c216a575a68e9c86e2b51096e85</string>
+		<key>installer_item_location</key>
+		<string>support/Puppet/puppetagent10.10-1.2.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>16264</integer>
+		<key>maximum_os_version</key>
+		<string>10.10.99</string>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>PuppetAgent</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>55019</integer>
+				<key>packageid</key>
+				<string>com.puppetlabs.puppet-agent</string>
+				<key>version</key>
+				<string>1.2.2</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.2.2</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

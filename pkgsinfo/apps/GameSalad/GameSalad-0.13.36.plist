@@ -5,9 +5,9 @@
 	<key>_metadata</key>
 	<dict>
 		<key>created_by</key>
-		<string>root</string>
+		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2015-08-20T15:01:03Z</date>
+		<date>2015-08-21T15:05:29Z</date>
 		<key>munki_version</key>
 		<string>2.3.0.2519</string>
 		<key>os_version</key>
@@ -17,44 +17,44 @@
 	<false/>
 	<key>catalogs</key>
 	<array>
-		<string>production</string>
 		<string>testing</string>
+		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Utilities</string>
+	<string>Development</string>
 	<key>description</key>
-	<string>Will uncompress RAR files.</string>
+	<string>If you want to make games, what are you waiting for? With GameSalad Creator you can learn the basics and start making games in about an hour. That’s right. You can make your first game in about an hour.</string>
 	<key>developer</key>
-	<string>UnRarX</string>
+	<string>GameSalad Inc.</string>
 	<key>display_name</key>
-	<string>UnRarX</string>
-	<key>icon_hash</key>
-	<string>95ce6f351174b8af21169e349f9a4018786d4e76cda5ea77a629016abe989b6c</string>
+	<string>GameSalad</string>
 	<key>installer_item_hash</key>
-	<string>51b33c692d1ec4081b4f49522991b3a4c8402acdb8a06f8df525e21ef723d6d8</string>
+	<string>1bc7f6e42dbae4f265cbaeb936bae4a5e871ce024ae6f634d1f12691f2321fc5</string>
 	<key>installer_item_location</key>
-	<string>UnRarX-2.2.dmg</string>
+	<string>apps/GameSalad/GameSalad-0.13.36.dmg</string>
 	<key>installer_item_size</key>
-	<integer>782</integer>
+	<integer>31452</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.peternoriega.unrarx</string>
+			<string>com.gendaigames.GameSalad</string>
 			<key>CFBundleName</key>
-			<string>UnRarX</string>
+			<string>GameSalad</string>
 			<key>CFBundleShortVersionString</key>
-			<string>Version 2.2</string>
+			<string>0.13.36</string>
 			<key>CFBundleVersion</key>
-			<string>2.2</string>
+			<string>0.13.36</string>
+			<key>minosversion</key>
+			<string>10.7.0</string>
 			<key>path</key>
-			<string>/Applications/UnRarX.app</string>
+			<string>/Applications/GameSalad.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
-			<string>CFBundleVersion</string>
+			<string>CFBundleShortVersionString</string>
 		</dict>
 	</array>
 	<key>items_to_copy</key>
@@ -63,18 +63,20 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>UnRarX.app</string>
+			<string>GameSalad.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.4.0</string>
+	<string>10.7.0</string>
 	<key>name</key>
-	<string>UnRarX</string>
+	<string>GameSalad</string>
+	<key>unattended_install</key>
+	<true/>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>2.2</string>
+	<string>0.13.36</string>
 </dict>
 </plist>

@@ -4,11 +4,15 @@
 <dict>
 	<key>catalogs</key>
 	<array>
-		<string>production</string>
+		<string>testing</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
 		<string>Learning-Commons</string>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>OS X 10.10.4 Yosemite</string>
 	</array>
 </dict>
 </plist>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalogs</key>
+	<array>
+		<string>production</string>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>AdobeAIR</string>
+		<string>AdobeFlashPlayer</string>
+		<string>Firefox</string>
+		<string>GoogleChrome</string>
+		<string>munkireport</string>
+		<string>munkitools</string>
+		<string>munkitools_admin</string>
+		<string>munkitools_core</string>
+		<string>munkitools_launchd</string>
+		<string>Silverlight</string>
+	</array>
+</dict>
+</plist>

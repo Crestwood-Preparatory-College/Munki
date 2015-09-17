@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>aanklewicz</string>
+		<key>creation_date</key>
+		<date>2015-09-16T21:29:46Z</date>
+		<key>munki_version</key>
+		<string>2.3.0.2519</string>
+		<key>os_version</key>
+		<string>10.10.4</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>production</string>
+	</array>
+	<key>category</key>
+	<string>Utilities</string>
+	<key>description</key>
+	<string>Mouse jiggler for OS X, can prevent sleep.</string>
+	<key>developer</key>
+	<string>Insomnia Team</string>
+	<key>display_name</key>
+	<string>InsomniaX</string>
+	<key>installer_item_hash</key>
+	<string>e583355610ecbe0bc2038cb9e373e7f97289be514fbc0b03246e768d93dd807e</string>
+	<key>installer_item_location</key>
+	<string>apps/InsomniaX/InsomniaX-2.1.8.dmg</string>
+	<key>installer_item_size</key>
+	<integer>1118</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>net.semaja2.InsomniaX</string>
+			<key>CFBundleName</key>
+			<string>InsomniaX</string>
+			<key>CFBundleShortVersionString</key>
+			<string>2.1.8</string>
+			<key>CFBundleVersion</key>
+			<string>2.1.8</string>
+			<key>minosversion</key>
+			<string>10.8.5</string>
+			<key>path</key>
+			<string>/Applications/InsomniaX.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>InsomniaX.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.8.5</string>
+	<key>name</key>
+	<string>InsomniaX</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2.1.8</string>
+</dict>
+</plist>

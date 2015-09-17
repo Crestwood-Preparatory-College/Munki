@@ -10,5 +10,9 @@
 	<array>
 		<string>CPC Master</string>
 	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>BoinxTV</string>
+	</array>
 </dict>
 </plist>

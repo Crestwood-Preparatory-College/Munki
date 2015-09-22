@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.mdm.Locals-Mac.local.936cbd80-429f-0133-e600-000c2932a417.alacarte</string>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>root</string>
+		<key>creation_date</key>
+		<date>2015-09-21T15:31:08Z</date>
+		<key>munki_version</key>
+		<string>2.3.0.2519</string>
+		<key>os_version</key>
+		<string>10.10.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>category</key>
+	<string>Profiles</string>
+	<key>description</key>
+	<string>Restricts access to /Applications/Utilities
+Restricts access to System Preferences </string>
+	<key>developer</key>
+	<string>Crestwood Prep</string>
+	<key>display_name</key>
+	<string>Restrictions Settings</string>
+	<key>icon_name</key>
+	<string>Directory_Settings.mobileconfig.png</string>
+	<key>installer_item_hash</key>
+	<string>3d3f8e2d14b2b1159a4fcde3c9ecdc8e04f54ed6d0107b67a9e9034459bd66f3</string>
+	<key>installer_item_location</key>
+	<string>profiles/Restrictions_Settings-1.0.mobileconfig</string>
+	<key>installer_item_size</key>
+	<integer>10</integer>
+	<key>installer_type</key>
+	<string>profile</string>
+	<key>minimum_munki_version</key>
+	<string>2.2</string>
+	<key>minimum_os_version</key>
+	<string>10.7</string>
+	<key>name</key>
+	<string>Restrictions_Settings.mobileconfig</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>unattended_uninstall</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_profile</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.mdm.Locals-Mac.local.b706b470-429e-0133-e5f9-000c2932a417.alacarte</string>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>root</string>
+		<key>creation_date</key>
+		<date>2015-09-21T15:30:36Z</date>
+		<key>munki_version</key>
+		<string>2.3.0.2519</string>
+		<key>os_version</key>
+		<string>10.10.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>category</key>
+	<string>Profiles</string>
+	<key>description</key>
+	<string>Login Window settings for Macs.</string>
+	<key>developer</key>
+	<string>Crestwood Prep</string>
+	<key>display_name</key>
+	<string>Login Window Settings</string>
+	<key>icon_name</key>
+	<string>Directory_Settings.mobileconfig.png</string>
+	<key>installer_item_hash</key>
+	<string>51e6a3cbf459be46b4f94f19d9ff40c7bcdec3de46d41972946d6a15f7cdde7f</string>
+	<key>installer_item_location</key>
+	<string>profiles/Login_Window_Settings-1.0.mobileconfig</string>
+	<key>installer_item_size</key>
+	<integer>5</integer>
+	<key>installer_type</key>
+	<string>profile</string>
+	<key>minimum_munki_version</key>
+	<string>2.2</string>
+	<key>minimum_os_version</key>
+	<string>10.7</string>
+	<key>name</key>
+	<string>Login_Window_Settings.mobileconfig</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>unattended_uninstall</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_profile</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>

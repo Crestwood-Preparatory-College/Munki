@@ -791,6 +791,469 @@
 		<string>14.1.0</string>
 	</dict>
 	<dict>
+		<key>PayloadIdentifier</key>
+		<string>com.apple.mdm.Locals-Mac.local.17f80a30-429e-0133-e5f2-000c2932a417.alacarte</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Profiles</string>
+		<key>description</key>
+		<string>This will set the Mac to have a 3HR energy saver setting and turn on and off at specific times in the day.</string>
+		<key>developer</key>
+		<string>Crestwood Prep</string>
+		<key>display_name</key>
+		<string>Energy Settings</string>
+		<key>icon_hash</key>
+		<string>d7d940d4a7ea10a35652ec74227a39cc10d4c7a72329a7c280447e62c7701340</string>
+		<key>icon_name</key>
+		<string>Directory_Settings.mobileconfig.png</string>
+		<key>installer_item_hash</key>
+		<string>0f8688672feb3646df454530b949dde2054e98d848d6c3ab74c258c82feff1f2</string>
+		<key>installer_item_location</key>
+		<string>profiles/Energy_Settings-1.0.mobileconfig</string>
+		<key>installer_item_size</key>
+		<integer>3</integer>
+		<key>installer_type</key>
+		<string>profile</string>
+		<key>minimum_munki_version</key>
+		<string>2.2</string>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>Energy_Settings.mobileconfig</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_profile</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>com.apple.mdm.Locals-Mac.local.80bfee70-42a0-0133-e60e-000c2932a417.alacarte</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Profiles</string>
+		<key>description</key>
+		<string>Sets the dock display preferences for users.</string>
+		<key>developer</key>
+		<string>Crestwood Prep</string>
+		<key>display_name</key>
+		<string>Dock Settings</string>
+		<key>icon_hash</key>
+		<string>d7d940d4a7ea10a35652ec74227a39cc10d4c7a72329a7c280447e62c7701340</string>
+		<key>icon_name</key>
+		<string>Directory_Settings.mobileconfig.png</string>
+		<key>installer_item_hash</key>
+		<string>04d60fc92d43637bdff87a69e5f4f0146e2a681f54b06fbaa42ff030eb642b91</string>
+		<key>installer_item_location</key>
+		<string>profiles/Dock_Settings-1.0.mobileconfig</string>
+		<key>installer_item_size</key>
+		<integer>2</integer>
+		<key>installer_type</key>
+		<string>profile</string>
+		<key>minimum_munki_version</key>
+		<string>2.2</string>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>Dock_Settings.mobileconfig</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_profile</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>com.apple.mdm.Locals-Mac.local.936cbd80-429f-0133-e600-000c2932a417.alacarte</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Profiles</string>
+		<key>description</key>
+		<string>Restricts access to /Applications/Utilities
+Restricts access to System Preferences </string>
+		<key>developer</key>
+		<string>Crestwood Prep</string>
+		<key>display_name</key>
+		<string>Restrictions Settings</string>
+		<key>icon_hash</key>
+		<string>d7d940d4a7ea10a35652ec74227a39cc10d4c7a72329a7c280447e62c7701340</string>
+		<key>icon_name</key>
+		<string>Directory_Settings.mobileconfig.png</string>
+		<key>installer_item_hash</key>
+		<string>8ebd95db86233dd4bc056b043fa6264fad61d4e228501ea137f60a449d47191b</string>
+		<key>installer_item_location</key>
+		<string>profiles/Restrictions_Settings-1.4.mobileconfig</string>
+		<key>installer_item_size</key>
+		<integer>10</integer>
+		<key>installer_type</key>
+		<string>profile</string>
+		<key>minimum_munki_version</key>
+		<string>2.2</string>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>Restrictions_Settings.mobileconfig</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_profile</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.4</string>
+	</dict>
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>com.apple.mdm.Locals-Mac.local.936cbd80-429f-0133-e600-000c2932a417.alacarte</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Profiles</string>
+		<key>description</key>
+		<string>Restricts access to /Applications/Utilities
+Restricts access to System Preferences </string>
+		<key>developer</key>
+		<string>Crestwood Prep</string>
+		<key>display_name</key>
+		<string>Restrictions Settings</string>
+		<key>icon_hash</key>
+		<string>d7d940d4a7ea10a35652ec74227a39cc10d4c7a72329a7c280447e62c7701340</string>
+		<key>icon_name</key>
+		<string>Directory_Settings.mobileconfig.png</string>
+		<key>installer_item_hash</key>
+		<string>a37078cfcfa7873ad9be1a564aea8017c9820f6d3e853cee07afade18a3a298f</string>
+		<key>installer_item_location</key>
+		<string>profiles/Restrictions_Settings-1.1.mobileconfig</string>
+		<key>installer_item_size</key>
+		<integer>10</integer>
+		<key>installer_type</key>
+		<string>profile</string>
+		<key>minimum_munki_version</key>
+		<string>2.2</string>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>Restrictions_Settings.mobileconfig</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_profile</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.1</string>
+	</dict>
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>com.apple.mdm.Locals-Mac.local.936cbd80-429f-0133-e600-000c2932a417.alacarte</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Profiles</string>
+		<key>description</key>
+		<string>Restricts access to /Applications/Utilities
+Restricts access to System Preferences </string>
+		<key>developer</key>
+		<string>Crestwood Prep</string>
+		<key>display_name</key>
+		<string>Restrictions Settings</string>
+		<key>icon_hash</key>
+		<string>d7d940d4a7ea10a35652ec74227a39cc10d4c7a72329a7c280447e62c7701340</string>
+		<key>icon_name</key>
+		<string>Directory_Settings.mobileconfig.png</string>
+		<key>installer_item_hash</key>
+		<string>8e2e36b404c85fc56cd8328d6d36c722244fcc531ed11bd021a34f80b8dd7142</string>
+		<key>installer_item_location</key>
+		<string>profiles/Restrictions_Settings-1.3.mobileconfig</string>
+		<key>installer_item_size</key>
+		<integer>10</integer>
+		<key>installer_type</key>
+		<string>profile</string>
+		<key>minimum_munki_version</key>
+		<string>2.2</string>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>Restrictions_Settings.mobileconfig</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_profile</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.3</string>
+	</dict>
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>com.apple.mdm.Locals-Mac.local.cf7481c0-42a0-0133-e611-000c2932a417.alacarte</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Profiles</string>
+		<key>description</key>
+		<string>Settings for Finder view.</string>
+		<key>developer</key>
+		<string>Crestwood Prep</string>
+		<key>display_name</key>
+		<string>Finder Settings</string>
+		<key>icon_hash</key>
+		<string>d7d940d4a7ea10a35652ec74227a39cc10d4c7a72329a7c280447e62c7701340</string>
+		<key>icon_name</key>
+		<string>Directory_Settings.mobileconfig.png</string>
+		<key>installer_item_hash</key>
+		<string>dc6d0a31d66e032f3e1e1216e16deee2a3217e172b2111517076644fff6ca3d4</string>
+		<key>installer_item_location</key>
+		<string>profiles/Finder_Settings-1.0.mobileconfig</string>
+		<key>installer_item_size</key>
+		<integer>2</integer>
+		<key>installer_type</key>
+		<string>profile</string>
+		<key>minimum_munki_version</key>
+		<string>2.2</string>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>Finder_Settings.mobileconfig</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_profile</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>com.apple.mdm.Locals-Mac.local.b706b470-429e-0133-e5f9-000c2932a417.alacarte</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Profiles</string>
+		<key>description</key>
+		<string>Login Window settings for Macs.</string>
+		<key>developer</key>
+		<string>Crestwood Prep</string>
+		<key>display_name</key>
+		<string>Login Window Settings</string>
+		<key>icon_hash</key>
+		<string>d7d940d4a7ea10a35652ec74227a39cc10d4c7a72329a7c280447e62c7701340</string>
+		<key>icon_name</key>
+		<string>Directory_Settings.mobileconfig.png</string>
+		<key>installer_item_hash</key>
+		<string>51e6a3cbf459be46b4f94f19d9ff40c7bcdec3de46d41972946d6a15f7cdde7f</string>
+		<key>installer_item_location</key>
+		<string>profiles/Login_Window_Settings-1.0.mobileconfig</string>
+		<key>installer_item_size</key>
+		<integer>5</integer>
+		<key>installer_type</key>
+		<string>profile</string>
+		<key>minimum_munki_version</key>
+		<string>2.2</string>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>Login_Window_Settings.mobileconfig</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_profile</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>com.apple.mdm.Locals-Mac.local.0e6bb380-42a0-0133-e607-000c2932a417.alacarte</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Profiles</string>
+		<key>description</key>
+		<string>Binds to AD</string>
+		<key>developer</key>
+		<string>Crestwood Prep</string>
+		<key>display_name</key>
+		<string>Directory Settings</string>
+		<key>icon_hash</key>
+		<string>d7d940d4a7ea10a35652ec74227a39cc10d4c7a72329a7c280447e62c7701340</string>
+		<key>installer_item_hash</key>
+		<string>b02723ba4bdcb374fe67eb9c43e171dbb0f76d1b708144628a1c3389ab61a296</string>
+		<key>installer_item_location</key>
+		<string>profiles/Directory_Settings-1.0.mobileconfig</string>
+		<key>installer_item_size</key>
+		<integer>3</integer>
+		<key>installer_type</key>
+		<string>profile</string>
+		<key>minimum_munki_version</key>
+		<string>2.2</string>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>Directory_Settings.mobileconfig</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_profile</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>com.apple.mdm.Locals-Mac.local.936cbd80-429f-0133-e600-000c2932a417.alacarte</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Profiles</string>
+		<key>description</key>
+		<string>Restricts access to /Applications/Utilities
+Restricts access to System Preferences </string>
+		<key>developer</key>
+		<string>Crestwood Prep</string>
+		<key>display_name</key>
+		<string>Restrictions Settings</string>
+		<key>icon_hash</key>
+		<string>d7d940d4a7ea10a35652ec74227a39cc10d4c7a72329a7c280447e62c7701340</string>
+		<key>icon_name</key>
+		<string>Directory_Settings.mobileconfig.png</string>
+		<key>installer_item_hash</key>
+		<string>ef8cf102a0398617a7fcb210a479801d4bafe2e65e2d5e548e3822ffe3f8d3f7</string>
+		<key>installer_item_location</key>
+		<string>profiles/Restrictions_Settings-1.2.mobileconfig</string>
+		<key>installer_item_size</key>
+		<integer>10</integer>
+		<key>installer_type</key>
+		<string>profile</string>
+		<key>minimum_munki_version</key>
+		<string>2.2</string>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>Restrictions_Settings.mobileconfig</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_profile</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.2</string>
+	</dict>
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>com.apple.mdm.Locals-Mac.local.936cbd80-429f-0133-e600-000c2932a417.alacarte</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Profiles</string>
+		<key>description</key>
+		<string>Restricts access to /Applications/Utilities
+Restricts access to System Preferences </string>
+		<key>developer</key>
+		<string>Crestwood Prep</string>
+		<key>display_name</key>
+		<string>Restrictions Settings</string>
+		<key>icon_hash</key>
+		<string>d7d940d4a7ea10a35652ec74227a39cc10d4c7a72329a7c280447e62c7701340</string>
+		<key>icon_name</key>
+		<string>Directory_Settings.mobileconfig.png</string>
+		<key>installer_item_hash</key>
+		<string>3d3f8e2d14b2b1159a4fcde3c9ecdc8e04f54ed6d0107b67a9e9034459bd66f3</string>
+		<key>installer_item_location</key>
+		<string>profiles/Restrictions_Settings-1.0.mobileconfig</string>
+		<key>installer_item_size</key>
+		<integer>10</integer>
+		<key>installer_type</key>
+		<string>profile</string>
+		<key>minimum_munki_version</key>
+		<string>2.2</string>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>Restrictions_Settings.mobileconfig</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_profile</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
 		<key>autoremove</key>
 		<true/>
 		<key>catalogs</key>
@@ -803,7 +1266,7 @@
 		<key>description</key>
 		<string>Removes FirstClass Client from Macs.</string>
 		<key>developer</key>
-		<string>Crestwood</string>
+		<string>Crestwood Prep</string>
 		<key>display_name</key>
 		<string>First Class Removal</string>
 		<key>icon_hash</key>
@@ -1235,6 +1698,73 @@ rm -R /Applications/FirstClass.app</string>
 		<true/>
 		<key>version</key>
 		<string>43.0.2357.134</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Communication</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>icon_hash</key>
+		<string>434fa31eed2db112b701b760460d7b78d6cb8e9eb8f7678967ba9c32674a41ce</string>
+		<key>installer_item_hash</key>
+		<string>8b970c53afab710aa920143f5207c6312c3934af1a0f35036239c25edbc092d7</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.12.0.657.dmg</string>
+		<key>installer_item_size</key>
+		<integer>43070</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.12</string>
+				<key>CFBundleVersion</key>
+				<string>7.12.0.657</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.12.0.657</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -1811,7 +2341,7 @@ rm -R /Applications/FirstClass.app</string>
 		<key>description</key>
 		<string>Removes Old OpenOffice.org Client from Macs.</string>
 		<key>developer</key>
-		<string>Crestwood</string>
+		<string>Crestwood Prep</string>
 		<key>display_name</key>
 		<string>OpenOffice.org Removal</string>
 		<key>icon_hash</key>
@@ -1850,6 +2380,73 @@ rm -R /Applications/OpenOffice.org.app</string>
 		<true/>
 		<key>version</key>
 		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Multimedia</string>
+		<key>description</key>
+		<string>Live Television production</string>
+		<key>developer</key>
+		<string>Boinx</string>
+		<key>display_name</key>
+		<string>BoinxTV</string>
+		<key>icon_hash</key>
+		<string>6d3d03a7401734562a6b3fda53a4d2cb6ab89274e7c2875102dfbc7a31a10277</string>
+		<key>installer_item_hash</key>
+		<string>8daa9a2f93d0a4305a231097505d6ee3a1781281adab48f219fa12976154c579</string>
+		<key>installer_item_location</key>
+		<string>apps/BoinxTV-1.9.12.dmg</string>
+		<key>installer_item_size</key>
+		<integer>52011</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.boinx.BoinxTV</string>
+				<key>CFBundleName</key>
+				<string>BoinxTV</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.9.12</string>
+				<key>CFBundleVersion</key>
+				<string>17142</string>
+				<key>minosversion</key>
+				<string>10.6.8</string>
+				<key>path</key>
+				<string>/Applications/BoinxTV.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>BoinxTV.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.8</string>
+		<key>name</key>
+		<string>BoinxTV</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.9.12</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -2239,6 +2836,74 @@ rm -R /Applications/OpenOffice.org.app</string>
 		<true/>
 		<key>version</key>
 		<string>7.10.0.776</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Internet Browsers</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>icon_hash</key>
+		<string>5cbec5cdef65ede7d4a2f6899e3e9343bb7d6c2285f1b1e217e07b635e21f839</string>
+		<key>installer_item_hash</key>
+		<string>f5304f1dfadff02fe06f649fd8c7ba9b3ccc179e40e5fca93dfde2c4d6d10c4f</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-45.0.2454.99.dmg</string>
+		<key>installer_item_size</key>
+		<integer>64974</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>45.0.2454.99</string>
+				<key>CFBundleVersion</key>
+				<string>2454.99</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>45.0.2454.99</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -3089,6 +3754,55 @@ fi
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Multimedia</string>
+		<key>description</key>
+		<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe® Integrated Runtime</string>
+		<key>icon_hash</key>
+		<string>6cd205104704555f638cc4a0617d08ff569cb405b5b826558424d2d08b511c6a</string>
+		<key>installed_size</key>
+		<integer>124924</integer>
+		<key>installer_item_hash</key>
+		<string>7dd5f83227ed6a94063bad9213838a52b115221f6c54254565848b4d9b8c6ed7</string>
+		<key>installer_item_location</key>
+		<string>apps/adobe/AdobeAIR-19.0.0.190.pkg</string>
+		<key>installer_item_size</key>
+		<integer>55200</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeAIR</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>124924</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.AIR</string>
+				<key>version</key>
+				<string>19.0.0.190</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>19.0.0.190</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>category</key>
@@ -3693,6 +4407,274 @@ fi
 		<true/>
 		<key>version</key>
 		<string>0.10.2 x86_64</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Office</string>
+		<key>developer</key>
+		<string>Apple, Inc.</string>
+		<key>display_name</key>
+		<string>Keynote</string>
+		<key>icon_hash</key>
+		<string>b1e5874bcb408779ceb759e3e6e9bb19ad1ffd7b29aa02fd1f15db3e6eb6bd56</string>
+		<key>installer_item_hash</key>
+		<string>3bda5efaf0c17cdc7502698d074935c99a2a0ac13dca42c4e330b98acc28e411</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/Keynote-6.5.3.dmg</string>
+		<key>installer_item_size</key>
+		<integer>428370</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iWork.Keynote</string>
+				<key>CFBundleName</key>
+				<string>Keynote</string>
+				<key>CFBundleShortVersionString</key>
+				<string>6.5.3</string>
+				<key>CFBundleVersion</key>
+				<string>2151</string>
+				<key>minosversion</key>
+				<string>10.10</string>
+				<key>path</key>
+				<string>/Applications/Keynote.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Keynote.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10</string>
+		<key>name</key>
+		<string>Keynote</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>6.5.3</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Office</string>
+		<key>developer</key>
+		<string>Apple, Inc.</string>
+		<key>display_name</key>
+		<string>Pages</string>
+		<key>icon_hash</key>
+		<string>c76b1efb92a59599dc3ef0bad3a98beba2be0cf9a7ed9d44f7e5e4c9cf9949f3</string>
+		<key>installer_item_hash</key>
+		<string>bb58e3aa846bf86379f02556f542230b8d301d6dac9e0e44bfbe38b6bdf9ea17</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/Pages-5.5.3.dmg</string>
+		<key>installer_item_size</key>
+		<integer>297030</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iWork.Pages</string>
+				<key>CFBundleName</key>
+				<string>Pages</string>
+				<key>CFBundleShortVersionString</key>
+				<string>5.5.3</string>
+				<key>CFBundleVersion</key>
+				<string>2152</string>
+				<key>minosversion</key>
+				<string>10.10</string>
+				<key>path</key>
+				<string>/Applications/Pages.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Pages.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10</string>
+		<key>name</key>
+		<string>Pages</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>5.5.3</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Office</string>
+		<key>developer</key>
+		<string>Apple, Inc.</string>
+		<key>display_name</key>
+		<string>Numbers</string>
+		<key>icon_hash</key>
+		<string>eaafa4d386d5dac3aa21a8c6641bf293966a03c0ae69d575bb08d01c4d5623cc</string>
+		<key>installer_item_hash</key>
+		<string>b432652c28cc64e202ed03701b97244a5afccae0442f866c2dbf7c754db4268d</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/Numbers-3.5.3.dmg</string>
+		<key>installer_item_size</key>
+		<integer>193778</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iWork.Numbers</string>
+				<key>CFBundleName</key>
+				<string>Numbers</string>
+				<key>CFBundleShortVersionString</key>
+				<string>3.5.3</string>
+				<key>CFBundleVersion</key>
+				<string>2150</string>
+				<key>minosversion</key>
+				<string>10.10</string>
+				<key>path</key>
+				<string>/Applications/Numbers.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Numbers.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10</string>
+		<key>name</key>
+		<string>Numbers</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.5.3</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Multimedia</string>
+		<key>developer</key>
+		<string>Apple, Inc.</string>
+		<key>display_name</key>
+		<string>iMovie</string>
+		<key>icon_hash</key>
+		<string>6183b1eb6185fc6d9c7a903c6d36eeffe98bbad0635cfaa082b74bdb989e1cbc</string>
+		<key>installer_item_hash</key>
+		<string>fcae22f76b0a10fce547f72c1632819e827d1c8e4ea9129deca65e71c29b3089</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/iMovie-10.0.9.dmg</string>
+		<key>installer_item_size</key>
+		<integer>1971190</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iMovieApp</string>
+				<key>CFBundleName</key>
+				<string>iMovie</string>
+				<key>CFBundleShortVersionString</key>
+				<string>10.0.9</string>
+				<key>CFBundleVersion</key>
+				<string>266479</string>
+				<key>minosversion</key>
+				<string>10.10.2</string>
+				<key>path</key>
+				<string>/Applications/iMovie.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>iMovie.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.2</string>
+		<key>name</key>
+		<string>iMovie</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>10.0.9</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -6205,6 +7187,143 @@ done
 		<key>icon_hash</key>
 		<string>b4328b4cb924376cadb49e3b4f3972d3476c8c1d52337e0e7c757fecdc7b897e</string>
 		<key>installer_item_hash</key>
+		<string>e9a28771479e1581bda4cd66d7b64fcadc463d5010de5e66f2ceac4c71be9606</string>
+		<key>installer_item_location</key>
+		<string>apps/GameSalad/GameSalad-0.13.40.dmg</string>
+		<key>installer_item_size</key>
+		<integer>31555</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.gendaigames.GameSalad</string>
+				<key>CFBundleName</key>
+				<string>GameSalad</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.13.40</string>
+				<key>CFBundleVersion</key>
+				<string>0.13.40</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/GameSalad.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>GameSalad.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>GameSalad</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.13.40</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Development</string>
+		<key>description</key>
+		<string>If you want to make games, what are you waiting for? With GameSalad Creator you can learn the basics and start making games in about an hour. That’s right. You can make your first game in about an hour.</string>
+		<key>developer</key>
+		<string>GameSalad Inc.</string>
+		<key>display_name</key>
+		<string>GameSalad</string>
+		<key>icon_hash</key>
+		<string>b4328b4cb924376cadb49e3b4f3972d3476c8c1d52337e0e7c757fecdc7b897e</string>
+		<key>installer_item_hash</key>
+		<string>ec19549deddb46e320354b9158f66586bcd5f43334c4cc272a45a702e2ecab14</string>
+		<key>installer_item_location</key>
+		<string>apps/GameSalad/GameSalad-0.13.41.dmg</string>
+		<key>installer_item_size</key>
+		<integer>31555</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.gendaigames.GameSalad</string>
+				<key>CFBundleName</key>
+				<string>GameSalad</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.13.41</string>
+				<key>CFBundleVersion</key>
+				<string>0.13.41</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/GameSalad.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>GameSalad.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>GameSalad</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.13.41</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Development</string>
+		<key>description</key>
+		<string>If you want to make games, what are you waiting for? With GameSalad Creator you can learn the basics and start making games in about an hour. That’s right. You can make your first game in about an hour.</string>
+		<key>developer</key>
+		<string>GameSalad Inc.</string>
+		<key>display_name</key>
+		<string>GameSalad</string>
+		<key>icon_hash</key>
+		<string>b4328b4cb924376cadb49e3b4f3972d3476c8c1d52337e0e7c757fecdc7b897e</string>
+		<key>installer_item_hash</key>
 		<string>2872f6c4c2d0c81c7756e23c10444be02f4bd4209d45e243da4cc345f460442c</string>
 		<key>installer_item_location</key>
 		<string>apps/GameSalad/GameSalad-0.13.38.dmg</string>
@@ -7190,6 +8309,57 @@ done
 		<true/>
 		<key>version</key>
 		<string>1.2.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Multimedia</string>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>icon_hash</key>
+		<string>d3067d9575cab38a71f2313a30da44e21c3093818b5535dbaa8519bfd67b8ac6</string>
+		<key>installed_size</key>
+		<integer>17124</integer>
+		<key>installer_item_hash</key>
+		<string>672cb9dd0215629647e882901ac01b96dd30edf850ededf278be37dbff9bba84</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-19.0.0.185.dmg</string>
+		<key>installer_item_size</key>
+		<integer>16349</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>17124</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>19.0.0.185</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>19.0.0.185</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

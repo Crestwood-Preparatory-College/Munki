@@ -803,7 +803,7 @@
 		<key>description</key>
 		<string>Removes FirstClass Client from Macs.</string>
 		<key>developer</key>
-		<string>Crestwood</string>
+		<string>Crestwood Prep</string>
 		<key>display_name</key>
 		<string>First Class Removal</string>
 		<key>icon_hash</key>
@@ -1235,6 +1235,73 @@ rm -R /Applications/FirstClass.app</string>
 		<true/>
 		<key>version</key>
 		<string>43.0.2357.134</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Communication</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>icon_hash</key>
+		<string>434fa31eed2db112b701b760460d7b78d6cb8e9eb8f7678967ba9c32674a41ce</string>
+		<key>installer_item_hash</key>
+		<string>8b970c53afab710aa920143f5207c6312c3934af1a0f35036239c25edbc092d7</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.12.0.657.dmg</string>
+		<key>installer_item_size</key>
+		<integer>43070</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.12</string>
+				<key>CFBundleVersion</key>
+				<string>7.12.0.657</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.12.0.657</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -1766,7 +1833,7 @@ rm -R /Applications/FirstClass.app</string>
 		<key>description</key>
 		<string>Removes Old OpenOffice.org Client from Macs.</string>
 		<key>developer</key>
-		<string>Crestwood</string>
+		<string>Crestwood Prep</string>
 		<key>display_name</key>
 		<string>OpenOffice.org Removal</string>
 		<key>icon_hash</key>
@@ -1812,6 +1879,7 @@ rm -R /Applications/OpenOffice.org.app</string>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
+			<string>testing</string>
 		</array>
 		<key>category</key>
 		<string>Multimedia</string>
@@ -3641,6 +3709,274 @@ fi
 		<true/>
 		<key>version</key>
 		<string>0.10.2 x86_64</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Office</string>
+		<key>developer</key>
+		<string>Apple, Inc.</string>
+		<key>display_name</key>
+		<string>Keynote</string>
+		<key>icon_hash</key>
+		<string>b1e5874bcb408779ceb759e3e6e9bb19ad1ffd7b29aa02fd1f15db3e6eb6bd56</string>
+		<key>installer_item_hash</key>
+		<string>3bda5efaf0c17cdc7502698d074935c99a2a0ac13dca42c4e330b98acc28e411</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/Keynote-6.5.3.dmg</string>
+		<key>installer_item_size</key>
+		<integer>428370</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iWork.Keynote</string>
+				<key>CFBundleName</key>
+				<string>Keynote</string>
+				<key>CFBundleShortVersionString</key>
+				<string>6.5.3</string>
+				<key>CFBundleVersion</key>
+				<string>2151</string>
+				<key>minosversion</key>
+				<string>10.10</string>
+				<key>path</key>
+				<string>/Applications/Keynote.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Keynote.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10</string>
+		<key>name</key>
+		<string>Keynote</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>6.5.3</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Office</string>
+		<key>developer</key>
+		<string>Apple, Inc.</string>
+		<key>display_name</key>
+		<string>Pages</string>
+		<key>icon_hash</key>
+		<string>c76b1efb92a59599dc3ef0bad3a98beba2be0cf9a7ed9d44f7e5e4c9cf9949f3</string>
+		<key>installer_item_hash</key>
+		<string>bb58e3aa846bf86379f02556f542230b8d301d6dac9e0e44bfbe38b6bdf9ea17</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/Pages-5.5.3.dmg</string>
+		<key>installer_item_size</key>
+		<integer>297030</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iWork.Pages</string>
+				<key>CFBundleName</key>
+				<string>Pages</string>
+				<key>CFBundleShortVersionString</key>
+				<string>5.5.3</string>
+				<key>CFBundleVersion</key>
+				<string>2152</string>
+				<key>minosversion</key>
+				<string>10.10</string>
+				<key>path</key>
+				<string>/Applications/Pages.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Pages.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10</string>
+		<key>name</key>
+		<string>Pages</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>5.5.3</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Office</string>
+		<key>developer</key>
+		<string>Apple, Inc.</string>
+		<key>display_name</key>
+		<string>Numbers</string>
+		<key>icon_hash</key>
+		<string>eaafa4d386d5dac3aa21a8c6641bf293966a03c0ae69d575bb08d01c4d5623cc</string>
+		<key>installer_item_hash</key>
+		<string>b432652c28cc64e202ed03701b97244a5afccae0442f866c2dbf7c754db4268d</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/Numbers-3.5.3.dmg</string>
+		<key>installer_item_size</key>
+		<integer>193778</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iWork.Numbers</string>
+				<key>CFBundleName</key>
+				<string>Numbers</string>
+				<key>CFBundleShortVersionString</key>
+				<string>3.5.3</string>
+				<key>CFBundleVersion</key>
+				<string>2150</string>
+				<key>minosversion</key>
+				<string>10.10</string>
+				<key>path</key>
+				<string>/Applications/Numbers.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Numbers.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10</string>
+		<key>name</key>
+		<string>Numbers</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.5.3</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Multimedia</string>
+		<key>developer</key>
+		<string>Apple, Inc.</string>
+		<key>display_name</key>
+		<string>iMovie</string>
+		<key>icon_hash</key>
+		<string>6183b1eb6185fc6d9c7a903c6d36eeffe98bbad0635cfaa082b74bdb989e1cbc</string>
+		<key>installer_item_hash</key>
+		<string>fcae22f76b0a10fce547f72c1632819e827d1c8e4ea9129deca65e71c29b3089</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/iMovie-10.0.9.dmg</string>
+		<key>installer_item_size</key>
+		<integer>1971190</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iMovieApp</string>
+				<key>CFBundleName</key>
+				<string>iMovie</string>
+				<key>CFBundleShortVersionString</key>
+				<string>10.0.9</string>
+				<key>CFBundleVersion</key>
+				<string>266479</string>
+				<key>minosversion</key>
+				<string>10.10.2</string>
+				<key>path</key>
+				<string>/Applications/iMovie.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>iMovie.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.2</string>
+		<key>name</key>
+		<string>iMovie</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>10.0.9</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -6133,6 +6469,75 @@ done
 		<true/>
 		<key>version</key>
 		<string>0.13.39</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Development</string>
+		<key>description</key>
+		<string>If you want to make games, what are you waiting for? With GameSalad Creator you can learn the basics and start making games in about an hour. That’s right. You can make your first game in about an hour.</string>
+		<key>developer</key>
+		<string>GameSalad Inc.</string>
+		<key>display_name</key>
+		<string>GameSalad</string>
+		<key>icon_hash</key>
+		<string>b4328b4cb924376cadb49e3b4f3972d3476c8c1d52337e0e7c757fecdc7b897e</string>
+		<key>installer_item_hash</key>
+		<string>e9a28771479e1581bda4cd66d7b64fcadc463d5010de5e66f2ceac4c71be9606</string>
+		<key>installer_item_location</key>
+		<string>apps/GameSalad/GameSalad-0.13.40.dmg</string>
+		<key>installer_item_size</key>
+		<integer>31555</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.gendaigames.GameSalad</string>
+				<key>CFBundleName</key>
+				<string>GameSalad</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.13.40</string>
+				<key>CFBundleVersion</key>
+				<string>0.13.40</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/GameSalad.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>GameSalad.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>GameSalad</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.13.40</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

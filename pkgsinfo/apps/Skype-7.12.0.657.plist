@@ -5,9 +5,9 @@
 	<key>_metadata</key>
 	<dict>
 		<key>created_by</key>
-		<string>root</string>
+		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2015-09-16T12:49:49Z</date>
+		<date>2015-09-17T23:24:45Z</date>
 		<key>munki_version</key>
 		<string>2.3.0.2519</string>
 		<key>os_version</key>
@@ -17,46 +17,42 @@
 	<false/>
 	<key>catalogs</key>
 	<array>
-		<string>production</string>
 		<string>testing</string>
+		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Multimedia</string>
+	<string>Communication</string>
 	<key>description</key>
-	<string>Live Television production</string>
+	<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
 	<key>developer</key>
-	<string>Boinx</string>
+	<string>Microsoft</string>
 	<key>display_name</key>
-	<string>BoinxTV</string>
-	<key>icon_hash</key>
-	<string>6d3d03a7401734562a6b3fda53a4d2cb6ab89274e7c2875102dfbc7a31a10277</string>
+	<string>Skype</string>
 	<key>installer_item_hash</key>
-	<string>8daa9a2f93d0a4305a231097505d6ee3a1781281adab48f219fa12976154c579</string>
+	<string>8b970c53afab710aa920143f5207c6312c3934af1a0f35036239c25edbc092d7</string>
 	<key>installer_item_location</key>
-	<string>apps/BoinxTV-1.9.12.dmg</string>
+	<string>apps/Skype-7.12.0.657.dmg</string>
 	<key>installer_item_size</key>
-	<integer>52011</integer>
+	<integer>43070</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.boinx.BoinxTV</string>
-			<key>CFBundleName</key>
-			<string>BoinxTV</string>
+			<string>com.skype.skype</string>
 			<key>CFBundleShortVersionString</key>
-			<string>1.9.12</string>
+			<string>7.12</string>
 			<key>CFBundleVersion</key>
-			<string>17142</string>
+			<string>7.12.0.657</string>
 			<key>minosversion</key>
-			<string>10.6.8</string>
+			<string>10.9</string>
 			<key>path</key>
-			<string>/Applications/BoinxTV.app</string>
+			<string>/Applications/Skype.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
-			<string>CFBundleShortVersionString</string>
+			<string>CFBundleVersion</string>
 		</dict>
 	</array>
 	<key>items_to_copy</key>
@@ -65,18 +61,20 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>BoinxTV.app</string>
+			<string>Skype.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.6.8</string>
+	<string>10.9</string>
 	<key>name</key>
-	<string>BoinxTV</string>
+	<string>Skype</string>
+	<key>unattended_install</key>
+	<true/>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>1.9.12</string>
+	<string>7.12.0.657</string>
 </dict>
 </plist>

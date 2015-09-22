@@ -5,54 +5,51 @@
 	<key>_metadata</key>
 	<dict>
 		<key>created_by</key>
-		<string>root</string>
+		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2015-09-16T12:49:49Z</date>
+		<date>2015-09-22T12:43:32Z</date>
 		<key>munki_version</key>
 		<string>2.3.0.2519</string>
 		<key>os_version</key>
-		<string>10.10.4</string>
+		<string>10.10.5</string>
 	</dict>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array>
-		<string>production</string>
 		<string>testing</string>
 	</array>
 	<key>category</key>
-	<string>Multimedia</string>
+	<string>Internet Browsers</string>
 	<key>description</key>
-	<string>Live Television production</string>
+	<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
 	<key>developer</key>
-	<string>Boinx</string>
+	<string>Google</string>
 	<key>display_name</key>
-	<string>BoinxTV</string>
-	<key>icon_hash</key>
-	<string>6d3d03a7401734562a6b3fda53a4d2cb6ab89274e7c2875102dfbc7a31a10277</string>
+	<string>Google Chrome</string>
 	<key>installer_item_hash</key>
-	<string>8daa9a2f93d0a4305a231097505d6ee3a1781281adab48f219fa12976154c579</string>
+	<string>f5304f1dfadff02fe06f649fd8c7ba9b3ccc179e40e5fca93dfde2c4d6d10c4f</string>
 	<key>installer_item_location</key>
-	<string>apps/BoinxTV-1.9.12.dmg</string>
+	<string>apps/GoogleChrome-45.0.2454.99.dmg</string>
 	<key>installer_item_size</key>
-	<integer>52011</integer>
+	<integer>64974</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.boinx.BoinxTV</string>
+			<string>com.google.Chrome</string>
 			<key>CFBundleName</key>
-			<string>BoinxTV</string>
+			<string>Chrome</string>
 			<key>CFBundleShortVersionString</key>
-			<string>1.9.12</string>
+			<string>45.0.2454.99</string>
 			<key>CFBundleVersion</key>
-			<string>17142</string>
+			<string>2454.99</string>
 			<key>minosversion</key>
-			<string>10.6.8</string>
+			<string>10.6.0</string>
 			<key>path</key>
-			<string>/Applications/BoinxTV.app</string>
+			<string>/Applications/Google Chrome.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -65,18 +62,20 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>BoinxTV.app</string>
+			<string>Google Chrome.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.6.8</string>
+	<string>10.6.0</string>
 	<key>name</key>
-	<string>BoinxTV</string>
+	<string>GoogleChrome</string>
+	<key>unattended_install</key>
+	<true/>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>1.9.12</string>
+	<string>45.0.2454.99</string>
 </dict>
 </plist>

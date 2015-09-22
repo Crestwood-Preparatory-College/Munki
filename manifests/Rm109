@@ -9,15 +9,16 @@
 	<key>managed_installs</key>
 	<array>
 		<string>Audacity</string>
-		<string>Facter</string>
 		<string>GameSalad</string>
 		<string>GIMP</string>
 		<string>GitHub</string>
-		<string>Hiera</string>
+		<string>iMovie</string>
+		<string>Keynote</string>
+		<string>Numbers</string>
 		<string>Office2011_update</string>
 		<string>OpenOffice</string>
 		<string>OS X 10.10.4 Yosemite</string>
-		<string>PuppetAgent</string>
+		<string>Pages</string>
 		<string>Safe Exam Browser</string>
 		<string>TextWrangler</string>
 		<string>ToonBoom Harmony</string>

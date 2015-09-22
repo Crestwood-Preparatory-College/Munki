@@ -11,7 +11,14 @@
 		<string>Rm109</string>
 	</array>
 	<key>managed_installs</key>
-	<array/>
+	<array>
+		<string>Directory_Settings.mobileconfig</string>
+		<string>Dock_Settings.mobileconfig</string>
+		<string>Energy_Settings.mobileconfig</string>
+		<string>Finder_Settings.mobileconfig</string>
+		<string>Login_Window_Settings.mobileconfig</string>
+		<string>Restrictions_Settings.mobileconfig</string>
+	</array>
 	<key>optional_installs</key>
 	<array/>
 </dict>

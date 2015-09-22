@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>included_manifests</key>
+	<array>
+		<string>Rm109</string>
+	</array>
+	<key>optional_installs</key>
+	<array>
+		<string>Directory_Settings.mobileconfig</string>
+		<string>Dock_Settings.mobileconfig</string>
+		<string>Energy_Settings.mobileconfig</string>
+		<string>Finder_Settings.mobileconfig</string>
+		<string>Login_Window_Settings.mobileconfig</string>
+		<string>Restrictions_Settings.mobileconfig</string>
+	</array>
+</dict>
+</plist>

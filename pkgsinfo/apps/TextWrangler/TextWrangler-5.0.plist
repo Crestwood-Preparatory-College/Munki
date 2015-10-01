@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2015-09-22T20:31:15Z</date>
+		<date>2015-09-30T18:32:17Z</date>
 		<key>munki_version</key>
 		<string>2.3.0.2519</string>
 		<key>os_version</key>
@@ -21,36 +21,36 @@
 		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Internet Browsers</string>
+	<string>Programming</string>
 	<key>description</key>
-	<string>Mozilla Firefox is a free and open source web browser.</string>
+	<string>TextWrangler is the powerful general purpose text editor, and Unix and server administrator's tool. TextWrangler is the "little brother" to BBEdit, a leading professional HTML and text editor.</string>
 	<key>developer</key>
-	<string>Mozilla</string>
+	<string>Bare Bones Software, Inc.</string>
 	<key>display_name</key>
-	<string>Mozilla Firefox</string>
+	<string>TextWrangler</string>
 	<key>installer_item_hash</key>
-	<string>e3317d398d4d8ac8dcde5b04c22da1e2881fcd061d8a88f73a2a3eac5c329211</string>
+	<string>01a0628490c2cad1c10592fd40a79715e637df2a6de7d35e8f1f5800f18c8202</string>
 	<key>installer_item_location</key>
-	<string>apps/firefox/Firefox-41.0.dmg</string>
+	<string>apps/TextWrangler/TextWrangler-5.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>77014</integer>
+	<integer>9719</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>org.mozilla.firefox</string>
+			<string>com.barebones.textwrangler</string>
 			<key>CFBundleName</key>
-			<string>Firefox</string>
+			<string>TextWrangler</string>
 			<key>CFBundleShortVersionString</key>
-			<string>41.0</string>
+			<string>5.0</string>
 			<key>CFBundleVersion</key>
-			<string>4115.9.17</string>
+			<string>3764</string>
 			<key>minosversion</key>
-			<string>10.6</string>
+			<string>10.8.5</string>
 			<key>path</key>
-			<string>/Applications/Firefox.app</string>
+			<string>/Applications/TextWrangler.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -63,13 +63,32 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Firefox.app</string>
+			<string>TextWrangler.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.6</string>
+	<string>10.8.5</string>
 	<key>name</key>
-	<string>Firefox</string>
+	<string>TextWrangler</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/sh
+# Copy command-line tool resources out of .app bundle
+CMD_TOOL_DIR=/usr/local/bin
+CMD_MAN_DIR=/usr/local/share/man/man1
+HELPER_BIN_SRC_DIR=/Applications/TextWrangler.app/Contents/Helpers
+HELPER_MAN_SRC_DIR=/Applications/TextWrangler.app/Contents/Resources
+LN=/bin/ln
+
+# create dirs if they don't already exist
+for DIR in "$CMD_TOOL_DIR" "$CMD_MAN_DIR"; do
+    [ -d "$DIR" ] || mkdir -p -m 775 "$DIR"
+done
+# make symlinks to binaries and manpages
+for TOOL in edit twdiff twfind; do
+    "$LN" -sf "$HELPER_BIN_SRC_DIR/$TOOL" "$CMD_TOOL_DIR/$TOOL"
+    "$LN" -sf "$HELPER_MAN_SRC_DIR/$TOOL.1" "$CMD_MAN_DIR/$TOOL.1"
+done
+            </string>
 	<key>unattended_install</key>
 	<true/>
 	<key>uninstall_method</key>
@@ -77,6 +96,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>41.0</string>
+	<string>5.0</string>
 </dict>
 </plist>

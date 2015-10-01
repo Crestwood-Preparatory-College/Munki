@@ -2,12 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>RestartAction</key>
+	<string>RequireRestart</string>
 	<key>_metadata</key>
 	<dict>
 		<key>created_by</key>
-		<string>aanklewicz</string>
+		<string>root</string>
 		<key>creation_date</key>
-		<date>2015-09-22T20:39:28Z</date>
+		<date>2015-09-30T19:58:59Z</date>
 		<key>munki_version</key>
 		<string>2.3.0.2519</string>
 		<key>os_version</key>
@@ -17,54 +19,49 @@
 	<false/>
 	<key>catalogs</key>
 	<array>
-		<string>development</string>
-		<string>testing</string>
 		<string>production</string>
+		<string>testing</string>
 	</array>
 	<key>category</key>
-	<string>Utilities</string>
+	<string>Operating Systems</string>
 	<key>description</key>
-	<string>Core command-line tools used by Managed Software Center.</string>
+	<string>Upgrade to OS X 10.11.0 (El Capitan)</string>
 	<key>developer</key>
-	<string>The Munki Team</string>
+	<string>Apple, Inc.</string>
 	<key>display_name</key>
-	<string>Managed Software Center core tools</string>
-	<key>icon_name</key>
-	<string>munkitools.png</string>
+	<string>OS X</string>
 	<key>installed_size</key>
-	<integer>643</integer>
+	<integer>8388608</integer>
 	<key>installer_item_hash</key>
-	<string>be394094960a9c306bff36fc4e4df407a511c62824fa823cc0a89186f5e47fbf</string>
+	<string>c81928fcdbc0b93e112c023be4afbf8d46064b0a77bc6f79267db4c8b3e4212f</string>
 	<key>installer_item_location</key>
-	<string>munkitools/munkitools_core-2.3.1.2535.pkg</string>
+	<string>OS/OS X 10.11.0-10.11.dmg</string>
 	<key>installer_item_size</key>
-	<integer>144</integer>
+	<integer>5939362</integer>
 	<key>minimum_os_version</key>
-	<string>10.6.0</string>
+	<string>10.4.0</string>
 	<key>name</key>
-	<string>munkitools_core</string>
+	<string>OS X 10.11.0 El Capitan</string>
 	<key>receipts</key>
 	<array>
 		<dict>
+			<key>filename</key>
+			<string>OS X 10.11.0.pkg</string>
 			<key>installed_size</key>
-			<integer>643</integer>
+			<integer>8388608</integer>
 			<key>packageid</key>
-			<string>com.googlecode.munki.core</string>
+			<string>com.googlecode.munki.installosx.pkg</string>
 			<key>version</key>
-			<string>2.3.1.2535</string>
+			<string>10.11</string>
 		</dict>
-	</array>
-	<key>requires</key>
-	<array>
-		<string>munkitools_launchd</string>
 	</array>
 	<key>unattended_install</key>
 	<true/>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
-	<true/>
+	<false/>
 	<key>version</key>
-	<string>2.3.1.2535</string>
+	<string>10.11</string>
 </dict>
 </plist>

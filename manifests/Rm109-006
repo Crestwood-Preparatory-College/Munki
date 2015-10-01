@@ -17,6 +17,7 @@
 		<string>Energy_Settings.mobileconfig</string>
 		<string>Finder_Settings.mobileconfig</string>
 		<string>Login_Window_Settings.mobileconfig</string>
+		<string>OS X 10.11.0 El Capitan</string>
 		<string>Restrictions_Settings.mobileconfig</string>
 	</array>
 	<key>optional_installs</key>

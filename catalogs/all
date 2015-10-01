@@ -2096,6 +2096,142 @@ rm -R /Applications/FirstClass.app</string>
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Communication</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>icon_hash</key>
+		<string>434fa31eed2db112b701b760460d7b78d6cb8e9eb8f7678967ba9c32674a41ce</string>
+		<key>installer_item_hash</key>
+		<string>91b0a66a710a2a4fd32c1a8bacce3481d11d4e220265189fa61d644cd983b6a9</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.13.0.428.dmg</string>
+		<key>installer_item_size</key>
+		<integer>39692</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.13</string>
+				<key>CFBundleVersion</key>
+				<string>7.13.0.428</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.13.0.428</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>The Unarchiver is a much more capable replacement for "Archive Utility.app", the built-in archive unpacker program on Mac OS X. The Unarchiver is designed to handle many more formats than Archive Utility, and to better fit in with the design of the Finder.</string>
+		<key>developer</key>
+		<string>Dag Ågren</string>
+		<key>display_name</key>
+		<string>The Unarchiver</string>
+		<key>icon_hash</key>
+		<string>141d32f756f07ea49e36bad70ee4ce470fa7d74ac327406028bd3832a0acd93a</string>
+		<key>installer_item_hash</key>
+		<string>072490c2164f3d2003f15a63f0c6fb34bf9aedeb0b782e4f926b729112a4b8cf</string>
+		<key>installer_item_location</key>
+		<string>apps/TheUnarchiver-3.10.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>6242</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>cx.c3.theunarchiver</string>
+				<key>CFBundleName</key>
+				<string>The Unarchiver</string>
+				<key>CFBundleShortVersionString</key>
+				<string>3.10.1</string>
+				<key>CFBundleVersion</key>
+				<string>103</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/The Unarchiver.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>The Unarchiver.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>TheUnarchiver</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.10.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Multimedia</string>
 		<key>description</key>
 		<string>Microsoft Silverlight is a free web-browser plug-in that enables interactive media experiences, rich business applications and immersive mobile apps.</string>
@@ -2524,6 +2660,56 @@ rm -R /Applications/OpenOffice.org.app</string>
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Multimedia</string>
+		<key>description</key>
+		<string>Microsoft Silverlight is a free web-browser plug-in that enables interactive media experiences, rich business applications and immersive mobile apps.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Microsoft Silverlight</string>
+		<key>icon_hash</key>
+		<string>905c454d45e59aafde16c0c3e4f055f40750192ee67321a4103d18b34db43904</string>
+		<key>installed_size</key>
+		<integer>35672</integer>
+		<key>installer_item_hash</key>
+		<string>8e991211164f8ff66f6a4fdc257c1fa3045f8dd599611cdbbd821e95f534efee</string>
+		<key>installer_item_location</key>
+		<string>apps/Silverlight-5.1.40905.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>14344</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Silverlight</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>35672</integer>
+				<key>packageid</key>
+				<string>com.microsoft.silverlight.plugin</string>
+				<key>version</key>
+				<string>5.1.40905.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>5.1.40905.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Internet Browsers</string>
 		<key>description</key>
 		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
@@ -2886,6 +3072,7 @@ rm -R /Applications/OpenOffice.org.app</string>
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Internet Browsers</string>
@@ -3050,6 +3237,75 @@ rm -R /Applications/OpenOffice.org.app</string>
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Internet Browsers</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>icon_hash</key>
+		<string>5cbec5cdef65ede7d4a2f6899e3e9343bb7d6c2285f1b1e217e07b635e21f839</string>
+		<key>installer_item_hash</key>
+		<string>2e28d127427f3ad68fca14e71eb24af2373d1548dfcaee2f10b0814183bf051f</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-45.0.2454.101.dmg</string>
+		<key>installer_item_size</key>
+		<integer>63472</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>45.0.2454.101</string>
+				<key>CFBundleVersion</key>
+				<string>2454.101</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>45.0.2454.101</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Programming</string>
 		<key>description</key>
 		<string>GUI application for GitHub.com</string>
@@ -3135,6 +3391,7 @@ fi
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Programming</string>
@@ -3927,6 +4184,7 @@ fi
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Multimedia</string>
@@ -4164,6 +4422,7 @@ fi
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Internet Browsers</string>
@@ -4518,6 +4777,7 @@ fi
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Multimedia</string>
@@ -7133,6 +7393,94 @@ fi
 		<key>icon_hash</key>
 		<string>eab0392713f3878cb58cbf4c2daef33e7133fabae0e433649fb187a373c25000</string>
 		<key>installer_item_hash</key>
+		<string>01a0628490c2cad1c10592fd40a79715e637df2a6de7d35e8f1f5800f18c8202</string>
+		<key>installer_item_location</key>
+		<string>apps/TextWrangler/TextWrangler-5.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>9719</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.barebones.textwrangler</string>
+				<key>CFBundleName</key>
+				<string>TextWrangler</string>
+				<key>CFBundleShortVersionString</key>
+				<string>5.0</string>
+				<key>CFBundleVersion</key>
+				<string>3764</string>
+				<key>minosversion</key>
+				<string>10.8.5</string>
+				<key>path</key>
+				<string>/Applications/TextWrangler.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>TextWrangler.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.8.5</string>
+		<key>name</key>
+		<string>TextWrangler</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# Copy command-line tool resources out of .app bundle
+CMD_TOOL_DIR=/usr/local/bin
+CMD_MAN_DIR=/usr/local/share/man/man1
+HELPER_BIN_SRC_DIR=/Applications/TextWrangler.app/Contents/Helpers
+HELPER_MAN_SRC_DIR=/Applications/TextWrangler.app/Contents/Resources
+LN=/bin/ln
+
+# create dirs if they don't already exist
+for DIR in "$CMD_TOOL_DIR" "$CMD_MAN_DIR"; do
+    [ -d "$DIR" ] || mkdir -p -m 775 "$DIR"
+done
+# make symlinks to binaries and manpages
+for TOOL in edit twdiff twfind; do
+    "$LN" -sf "$HELPER_BIN_SRC_DIR/$TOOL" "$CMD_TOOL_DIR/$TOOL"
+    "$LN" -sf "$HELPER_MAN_SRC_DIR/$TOOL.1" "$CMD_MAN_DIR/$TOOL.1"
+done
+            </string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>5.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Programming</string>
+		<key>description</key>
+		<string>TextWrangler is the powerful general purpose text editor, and Unix and server administrator's tool. TextWrangler is the "little brother" to BBEdit, a leading professional HTML and text editor.</string>
+		<key>developer</key>
+		<string>Bare Bones Software, Inc.</string>
+		<key>display_name</key>
+		<string>TextWrangler</string>
+		<key>icon_hash</key>
+		<string>eab0392713f3878cb58cbf4c2daef33e7133fabae0e433649fb187a373c25000</string>
+		<key>installer_item_hash</key>
 		<string>f25ce90a54570ee4fe2287cdbe5c8b2a57188423a3693becacfa0533f02e0aa2</string>
 		<key>installer_item_location</key>
 		<string>apps/TextWrangler/TextWrangler-4.5.12.dmg</string>
@@ -7484,6 +7832,7 @@ done
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Development</string>
@@ -8016,12 +8365,67 @@ done
 		<string>10.10.4</string>
 	</dict>
 	<dict>
+		<key>RestartAction</key>
+		<string>RequireRestart</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Operating Systems</string>
+		<key>description</key>
+		<string>Upgrade to OS X 10.11.0 (El Capitan)</string>
+		<key>developer</key>
+		<string>Apple, Inc.</string>
+		<key>display_name</key>
+		<string>OS X</string>
+		<key>icon_hash</key>
+		<string>1a0b5ce704c3f778b144639033c93896c7fe0e57c5ddaecb5c812ed8a2d7ebe2</string>
+		<key>installed_size</key>
+		<integer>8388608</integer>
+		<key>installer_item_hash</key>
+		<string>c81928fcdbc0b93e112c023be4afbf8d46064b0a77bc6f79267db4c8b3e4212f</string>
+		<key>installer_item_location</key>
+		<string>OS/OS X 10.11.0-10.11.dmg</string>
+		<key>installer_item_size</key>
+		<integer>5939362</integer>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>OS X 10.11.0 El Capitan</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>OS X 10.11.0.pkg</string>
+				<key>installed_size</key>
+				<integer>8388608</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.installosx.pkg</string>
+				<key>version</key>
+				<string>10.11</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<false/>
+		<key>version</key>
+		<string>10.11</string>
+	</dict>
+	<dict>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>development</string>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Utilities</string>
@@ -8304,6 +8708,7 @@ done
 		<array>
 			<string>development</string>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Utilities</string>
@@ -8360,6 +8765,7 @@ done
 		<array>
 			<string>development</string>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Utilities</string>
@@ -8724,6 +9130,7 @@ done
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Multimedia</string>

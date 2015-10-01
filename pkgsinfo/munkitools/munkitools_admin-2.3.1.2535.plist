@@ -19,6 +19,7 @@
 	<array>
 		<string>development</string>
 		<string>testing</string>
+		<string>production</string>
 	</array>
 	<key>category</key>
 	<string>Utilities</string>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>aanklewicz</string>
+		<key>creation_date</key>
+		<date>2015-10-13T14:27:41Z</date>
+		<key>munki_version</key>
+		<string>2.3.1.2535</string>
+		<key>os_version</key>
+		<string>10.11</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Puppet is a configuration management solution that allows you to define the state of your IT infrastructure, and then automatically enforces the desired state</string>
+	<key>developer</key>
+	<string>Puppetlabs</string>
+	<key>display_name</key>
+	<string>Puppet Agent</string>
+	<key>installed_size</key>
+	<integer>58108</integer>
+	<key>installer_item_hash</key>
+	<string>81c31687a3ef4efc73ec3da440ba37eb37786a67f18dbe1a7d90956d99942614</string>
+	<key>installer_item_location</key>
+	<string>support/Puppet/puppetagent10.10-1.2.6.dmg</string>
+	<key>installer_item_size</key>
+	<integer>16843</integer>
+	<key>maximum_os_version</key>
+	<string>10.10.99</string>
+	<key>minimum_os_version</key>
+	<string>10.10.0</string>
+	<key>name</key>
+	<string>PuppetAgent</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>58108</integer>
+			<key>packageid</key>
+			<string>com.puppetlabs.puppet-agent</string>
+			<key>version</key>
+			<string>1.2.6</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.2.6</string>
+</dict>
+</plist>

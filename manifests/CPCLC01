@@ -12,7 +12,13 @@
 	</array>
 	<key>managed_installs</key>
 	<array>
-		<string>OS X 10.10.4 Yosemite</string>
+		<string>Directory_Settings.mobileconfig</string>
+		<string>Dock_Settings.mobileconfig</string>
+		<string>Energy_Settings.mobileconfig</string>
+		<string>Finder_Settings.mobileconfig</string>
+		<string>Login_Window_Settings.mobileconfig</string>
+		<string>OS X 10.11.0 El Capitan</string>
+		<string>Restrictions_Settings.mobileconfig</string>
 	</array>
 </dict>
 </plist>

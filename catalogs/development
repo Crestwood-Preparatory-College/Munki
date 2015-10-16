@@ -59,6 +59,76 @@
 		<key>catalogs</key>
 		<array>
 			<string>development</string>
+			<string>production</string>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Multimedia</string>
+		<key>description</key>
+		<string>iBooks Author is an e-book authoring application by Apple Inc. Documents created with iBooks Author may be exported as PDF files or be published to the Apple iBooks Bookstore.</string>
+		<key>developer</key>
+		<string>Apple, Inc.</string>
+		<key>display_name</key>
+		<string>iBooks Author</string>
+		<key>icon_hash</key>
+		<string>165eaafc820aca4bf7c7420a6d65f99591aeda21fae6a163dd618178410181d9</string>
+		<key>installer_item_hash</key>
+		<string>81db91a648cdee6982bf857c696d88ceba941b1d537d92c51628489a22062b62</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/iBooks Author-2.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>408562</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iBooksAuthor</string>
+				<key>CFBundleName</key>
+				<string>iBooks Author</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.2</string>
+				<key>CFBundleVersion</key>
+				<string>652</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/iBooks Author.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>iBooks Author.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>iBooks Author</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>development</string>
 			<string>testing</string>
 			<string>production</string>
 		</array>

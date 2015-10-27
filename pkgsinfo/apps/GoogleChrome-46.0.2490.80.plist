@@ -7,11 +7,11 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2015-10-05T18:04:23Z</date>
+		<date>2015-10-26T20:08:50Z</date>
 		<key>munki_version</key>
 		<string>2.3.1.2535</string>
 		<key>os_version</key>
-		<string>10.10.5</string>
+		<string>10.11</string>
 	</dict>
 	<key>autoremove</key>
 	<false/>
@@ -21,36 +21,36 @@
 		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Email</string>
+	<string>Internet Browsers</string>
 	<key>description</key>
-	<string>Mozilla Thunderbird is a free and open source mail client.</string>
+	<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
 	<key>developer</key>
-	<string>Mozilla</string>
+	<string>Google</string>
 	<key>display_name</key>
-	<string>Mozilla Thunderbird</string>
+	<string>Google Chrome</string>
 	<key>installer_item_hash</key>
-	<string>67120a0b4e97a973302720121d936589d113adf82996be0a99128cd7d9f3cca3</string>
+	<string>bc86ea0cbc42fa21810e2fe64800b86f4e1a2d9d8d48d17dcbc0b07e4ea137ed</string>
 	<key>installer_item_location</key>
-	<string>apps/thunderbird/Thunderbird-38.3.0.dmg</string>
+	<string>apps/GoogleChrome-46.0.2490.80.dmg</string>
 	<key>installer_item_size</key>
-	<integer>68342</integer>
+	<integer>63849</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>org.mozilla.thunderbird</string>
+			<string>com.google.Chrome</string>
 			<key>CFBundleName</key>
-			<string>Thunderbird</string>
+			<string>Chrome</string>
 			<key>CFBundleShortVersionString</key>
-			<string>38.3.0</string>
+			<string>46.0.2490.80</string>
 			<key>CFBundleVersion</key>
-			<string>38.3.0</string>
+			<string>2490.80</string>
 			<key>minosversion</key>
 			<string>10.6.0</string>
 			<key>path</key>
-			<string>/Applications/Thunderbird.app</string>
+			<string>/Applications/Google Chrome.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -63,13 +63,13 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Thunderbird.app</string>
+			<string>Google Chrome.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
 	<string>10.6.0</string>
 	<key>name</key>
-	<string>Thunderbird</string>
+	<string>GoogleChrome</string>
 	<key>unattended_install</key>
 	<true/>
 	<key>uninstall_method</key>
@@ -77,6 +77,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>38.3.0</string>
+	<string>46.0.2490.80</string>
 </dict>
 </plist>

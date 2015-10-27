@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2015-10-13T14:27:41Z</date>
+		<date>2015-10-22T12:35:14Z</date>
 		<key>munki_version</key>
 		<string>2.3.1.2535</string>
 		<key>os_version</key>
@@ -18,38 +18,39 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
+		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Internet Browsers</string>
+	<string>Multimedia</string>
 	<key>description</key>
-	<string>Puppet is a configuration management solution that allows you to define the state of your IT infrastructure, and then automatically enforces the desired state</string>
+	<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
 	<key>developer</key>
-	<string>Puppetlabs</string>
+	<string>Adobe</string>
 	<key>display_name</key>
-	<string>Puppet Agent</string>
+	<string>Adobe Flash Player</string>
 	<key>installed_size</key>
-	<integer>58108</integer>
+	<integer>17141</integer>
 	<key>installer_item_hash</key>
-	<string>81c31687a3ef4efc73ec3da440ba37eb37786a67f18dbe1a7d90956d99942614</string>
+	<string>fd200c887259ded2b162e65d7a9757b135583d2a4d928042d978a5efa9975a8e</string>
 	<key>installer_item_location</key>
-	<string>support/Puppet/puppetagent10.10-1.2.6.dmg</string>
+	<string>internet_plugins/AdobeFlashPlayer-19.0.0.226.dmg</string>
 	<key>installer_item_size</key>
-	<integer>16843</integer>
-	<key>maximum_os_version</key>
-	<string>10.10.99</string>
+	<integer>16366</integer>
 	<key>minimum_os_version</key>
-	<string>10.10.0</string>
+	<string>10.5.0</string>
 	<key>name</key>
-	<string>PuppetAgent</string>
+	<string>AdobeFlashPlayer</string>
+	<key>package_path</key>
+	<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>58108</integer>
+			<integer>17141</integer>
 			<key>packageid</key>
-			<string>com.puppetlabs.puppet-agent</string>
+			<string>com.adobe.pkg.FlashPlayer</string>
 			<key>version</key>
-			<string>1.2.6</string>
+			<string>19.0.0.226</string>
 		</dict>
 	</array>
 	<key>unattended_install</key>
@@ -59,6 +60,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>1.2.6</string>
+	<string>19.0.0.226</string>
 </dict>
 </plist>

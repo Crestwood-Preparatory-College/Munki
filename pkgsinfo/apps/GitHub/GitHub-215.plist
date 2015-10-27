@@ -7,11 +7,11 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2015-10-05T18:04:23Z</date>
+		<date>2015-10-22T12:44:36Z</date>
 		<key>munki_version</key>
 		<string>2.3.1.2535</string>
 		<key>os_version</key>
-		<string>10.10.5</string>
+		<string>10.11</string>
 	</dict>
 	<key>autoremove</key>
 	<false/>
@@ -21,40 +21,40 @@
 		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Email</string>
+	<string>Programming</string>
 	<key>description</key>
-	<string>Mozilla Thunderbird is a free and open source mail client.</string>
+	<string>GUI application for GitHub.com</string>
 	<key>developer</key>
-	<string>Mozilla</string>
+	<string>GitHub</string>
 	<key>display_name</key>
-	<string>Mozilla Thunderbird</string>
+	<string>GitHub</string>
 	<key>installer_item_hash</key>
-	<string>67120a0b4e97a973302720121d936589d113adf82996be0a99128cd7d9f3cca3</string>
+	<string>1f7079d1c22411f365b05b123cb97822ec9583220d441ca1705542fe09c7cdbf</string>
 	<key>installer_item_location</key>
-	<string>apps/thunderbird/Thunderbird-38.3.0.dmg</string>
+	<string>apps/GitHub/GitHub-215.dmg</string>
 	<key>installer_item_size</key>
-	<integer>68342</integer>
+	<integer>37576</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>org.mozilla.thunderbird</string>
+			<string>com.github.GitHub</string>
 			<key>CFBundleName</key>
-			<string>Thunderbird</string>
+			<string>GitHub Desktop</string>
 			<key>CFBundleShortVersionString</key>
-			<string>38.3.0</string>
+			<string>Fear Monad</string>
 			<key>CFBundleVersion</key>
-			<string>38.3.0</string>
+			<string>215</string>
 			<key>minosversion</key>
-			<string>10.6.0</string>
+			<string>10.9</string>
 			<key>path</key>
-			<string>/Applications/Thunderbird.app</string>
+			<string>/Applications/GitHub Desktop.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
-			<string>CFBundleShortVersionString</string>
+			<string>CFBundleVersion</string>
 		</dict>
 	</array>
 	<key>items_to_copy</key>
@@ -63,20 +63,39 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Thunderbird.app</string>
+			<string>GitHub Desktop.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.6.0</string>
+	<string>10.9</string>
 	<key>name</key>
-	<string>Thunderbird</string>
+	<string>GitHub</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/sh
+CLI_SOURCE="/Applications/GitHub.app/Contents/MacOS/github_cli"
+DEST_DIR="/usr/local/bin"
+if [ ! -x "${CLI_SOURCE}" ]; then
+    exit 1
+fi
+
+if [ ! -d "${DEST_DIR}" ]; then
+    /bin/mkdir -p "${DEST_DIR}"
+fi
+
+/bin/cp -f "${CLI_SOURCE}" "${DEST_DIR}/github"
+</string>
 	<key>unattended_install</key>
 	<true/>
 	<key>uninstall_method</key>
-	<string>remove_copied_items</string>
+	<string>uninstall_script</string>
+	<key>uninstall_script</key>
+	<string>#!/bin/sh
+/bin/rm -rf /Applications/GitHub.app
+/bin/rm -f /usr/local/bin/github
+</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>38.3.0</string>
+	<string>215</string>
 </dict>
 </plist>

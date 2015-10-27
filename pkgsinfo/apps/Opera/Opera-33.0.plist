@@ -7,11 +7,11 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2015-10-05T18:04:23Z</date>
+		<date>2015-10-26T20:15:24Z</date>
 		<key>munki_version</key>
 		<string>2.3.1.2535</string>
 		<key>os_version</key>
-		<string>10.10.5</string>
+		<string>10.11</string>
 	</dict>
 	<key>autoremove</key>
 	<false/>
@@ -21,36 +21,36 @@
 		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Email</string>
+	<string>Internet Browsers</string>
 	<key>description</key>
-	<string>Mozilla Thunderbird is a free and open source mail client.</string>
+	<string>Opera products enable more than 350 million internet consumers to discover and connect with the content and services that matter most to them, no matter what device, network or location. In turn, we help advertisers reach the audiences that build value for their businesses. Opera also delivers products and services to more than 120 operators around the world, enabling them to provide a faster, more economical and better network experience to their subscribers.</string>
 	<key>developer</key>
-	<string>Mozilla</string>
+	<string>Opera Software Asa</string>
 	<key>display_name</key>
-	<string>Mozilla Thunderbird</string>
+	<string>Opera</string>
 	<key>installer_item_hash</key>
-	<string>67120a0b4e97a973302720121d936589d113adf82996be0a99128cd7d9f3cca3</string>
+	<string>3d0098b65960e506a1950ef1453fc9a1dc60588b6c3a42cf1e18fc024f571c58</string>
 	<key>installer_item_location</key>
-	<string>apps/thunderbird/Thunderbird-38.3.0.dmg</string>
+	<string>apps/Opera/Opera-33.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>68342</integer>
+	<integer>54223</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>org.mozilla.thunderbird</string>
+			<string>com.operasoftware.Opera</string>
 			<key>CFBundleName</key>
-			<string>Thunderbird</string>
+			<string>Opera</string>
 			<key>CFBundleShortVersionString</key>
-			<string>38.3.0</string>
+			<string>33.0</string>
 			<key>CFBundleVersion</key>
-			<string>38.3.0</string>
+			<string>33.0.1990.43</string>
 			<key>minosversion</key>
-			<string>10.6.0</string>
+			<string>10.7.0</string>
 			<key>path</key>
-			<string>/Applications/Thunderbird.app</string>
+			<string>/Applications/Opera.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -63,13 +63,13 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Thunderbird.app</string>
+			<string>Opera.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.6.0</string>
+	<string>10.7.0</string>
 	<key>name</key>
-	<string>Thunderbird</string>
+	<string>Opera</string>
 	<key>unattended_install</key>
 	<true/>
 	<key>uninstall_method</key>
@@ -77,6 +77,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>38.3.0</string>
+	<string>33.0</string>
 </dict>
 </plist>

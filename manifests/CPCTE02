@@ -8,11 +8,7 @@
 	</array>
 	<key>included_manifests</key>
 	<array>
-		<string>Rm109</string>
-	</array>
-	<key>managed_installs</key>
-	<array>
-		<string>OS X 10.11.0 El Capitan</string>
+		<string>CPC Master</string>
 	</array>
 </dict>
 </plist>

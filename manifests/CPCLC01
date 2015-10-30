@@ -12,6 +12,7 @@
 	</array>
 	<key>managed_installs</key>
 	<array>
+		<string>Comic Life 2</string>
 		<string>Directory_Settings.mobileconfig</string>
 		<string>Dock_Settings.mobileconfig</string>
 		<string>Energy_Settings.mobileconfig</string>

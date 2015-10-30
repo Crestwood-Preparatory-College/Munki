@@ -2570,6 +2570,69 @@ rm -R /Applications/FirstClass.app</string>
 		<false/>
 		<key>catalogs</key>
 		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>icon_hash</key>
+		<string>434fa31eed2db112b701b760460d7b78d6cb8e9eb8f7678967ba9c32674a41ce</string>
+		<key>installer_item_hash</key>
+		<string>cf7913f434878ef84683a8b1f7b8afa74d09e19e6acba3e527429e5e236031f1</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.15.0.333.dmg</string>
+		<key>installer_item_size</key>
+		<integer>40061</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.15</string>
+				<key>CFBundleVersion</key>
+				<string>7.15.0.333</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.15.0.333</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
 			<string>production</string>
 			<string>testing</string>
 		</array>
@@ -4548,6 +4611,81 @@ fi
 		<true/>
 		<key>version</key>
 		<string>38.3.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Comic Life 2</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Multimedia</string>
+		<key>description</key>
+		<string>Comic Life 2</string>
+		<key>developer</key>
+		<string>Plasq</string>
+		<key>display_name</key>
+		<string>Comic Life 2</string>
+		<key>icon_hash</key>
+		<string>1ef2e4c35c01aee7ad0f72767f2be919ab9a6d013e43e2673114d0d65e911589</string>
+		<key>installer_item_hash</key>
+		<string>125af2ddd4361feac2a7daf5ef372d35b4eafb1a5ae82fd6aab0b813a170931e</string>
+		<key>installer_item_location</key>
+		<string>apps/comiclife/Comic Life 2-2.2.7.dmg</string>
+		<key>installer_item_size</key>
+		<integer>75551</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.plasq.ComicLife2</string>
+				<key>CFBundleName</key>
+				<string>Comic Life 2</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.2.7</string>
+				<key>CFBundleVersion</key>
+				<string>25357</string>
+				<key>minosversion</key>
+				<string>10.4</string>
+				<key>path</key>
+				<string>/Applications/Comic Life 2.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Comic Life 2.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>Comic Life 2</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.2.7</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -11035,6 +11173,53 @@ done
 		<true/>
 		<key>version</key>
 		<string>1.2.6</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Puppet is a configuration management solution that allows you to define the state of your IT infrastructure, and then automatically enforces the desired state</string>
+		<key>developer</key>
+		<string>Puppetlabs</string>
+		<key>display_name</key>
+		<string>Puppet Agent</string>
+		<key>installed_size</key>
+		<integer>58510</integer>
+		<key>installer_item_hash</key>
+		<string>571a1dd796855298a19704aa548f5910fe5393ba715e432f73e5136bad1ad48e</string>
+		<key>installer_item_location</key>
+		<string>support/Puppet/puppetagent10.10-1.2.7.dmg</string>
+		<key>installer_item_size</key>
+		<integer>16954</integer>
+		<key>maximum_os_version</key>
+		<string>10.10.99</string>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>PuppetAgent</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>58510</integer>
+				<key>packageid</key>
+				<string>com.puppetlabs.puppet-agent</string>
+				<key>version</key>
+				<string>1.2.7</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.2.7</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

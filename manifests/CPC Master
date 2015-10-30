@@ -31,6 +31,7 @@
 	<key>optional_installs</key>
 	<array>
 		<string>1Password</string>
+		<string>Comic Life 2</string>
 		<string>GameSalad</string>
 		<string>GIMP</string>
 		<string>GitHub</string>

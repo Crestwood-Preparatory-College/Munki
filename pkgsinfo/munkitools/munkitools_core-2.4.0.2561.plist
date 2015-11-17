@@ -7,54 +7,54 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2015-09-22T20:39:30Z</date>
+		<date>2015-11-17T19:28:36Z</date>
 		<key>munki_version</key>
-		<string>2.3.0.2519</string>
+		<string>2.3.1.2535</string>
 		<key>os_version</key>
-		<string>10.10.5</string>
+		<string>10.11</string>
 	</dict>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array>
 		<string>development</string>
-		<string>testing</string>
 		<string>production</string>
 	</array>
 	<key>category</key>
 	<string>Information Technology</string>
 	<key>description</key>
-	<string>Managed Software Center application.</string>
+	<string>Core command-line tools used by Managed Software Center.</string>
 	<key>developer</key>
 	<string>The Munki Team</string>
 	<key>display_name</key>
-	<string>Managed Software Center</string>
+	<string>Managed Software Center core tools</string>
+	<key>icon_name</key>
+	<string>munkitools.png</string>
 	<key>installed_size</key>
-	<integer>4282</integer>
+	<integer>646</integer>
 	<key>installer_item_hash</key>
-	<string>d7db80470f118b03aa41d1ff58a5ee1c78a0cd31f79a113649ac5a548335c3a3</string>
+	<string>8193fd935ce43fdfa9db0ee45c5aaddbce3e265c7f0fc76041b8a1b3b0f62456</string>
 	<key>installer_item_location</key>
-	<string>munkitools/munkitools_app-4.1.2531.pkg</string>
+	<string>munkitools/munkitools_core-2.4.0.2561.pkg</string>
 	<key>installer_item_size</key>
-	<integer>2992</integer>
+	<integer>144</integer>
 	<key>minimum_os_version</key>
 	<string>10.6.0</string>
 	<key>name</key>
-	<string>munkitools</string>
+	<string>munkitools_core</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>4282</integer>
+			<integer>646</integer>
 			<key>packageid</key>
-			<string>com.googlecode.munki.app</string>
+			<string>com.googlecode.munki.core</string>
 			<key>version</key>
-			<string>4.1.2531</string>
+			<string>2.4.0.2561</string>
 		</dict>
 	</array>
 	<key>requires</key>
 	<array>
-		<string>munkitools_core</string>
 		<string>munkitools_launchd</string>
 	</array>
 	<key>unattended_install</key>
@@ -64,6 +64,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>4.1.2531</string>
+	<string>2.4.0.2561</string>
 </dict>
 </plist>

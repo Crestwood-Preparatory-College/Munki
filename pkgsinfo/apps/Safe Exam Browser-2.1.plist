@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2015-10-30T15:07:11Z</date>
+		<date>2015-11-12T17:01:12Z</date>
 		<key>munki_version</key>
 		<string>2.3.1.2535</string>
 		<key>os_version</key>
@@ -21,38 +21,40 @@
 		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Communication</string>
+	<string>Education</string>
 	<key>description</key>
-	<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+	<string>Safe Exam Browser is a webbrowser-environment to carry out online exams safely. The software changes any computer into a secure workstation. It regulates the access to any utilities like system functions, other websites and applications and prevents unauthorised resources being used during an exam.</string>
 	<key>developer</key>
-	<string>Microsoft</string>
+	<string>The SEB team</string>
 	<key>display_name</key>
-	<string>Skype</string>
+	<string>Safe Exam Browser</string>
 	<key>installer_item_hash</key>
-	<string>cf7913f434878ef84683a8b1f7b8afa74d09e19e6acba3e527429e5e236031f1</string>
+	<string>d084e12fcc6da082a1e498df9eb766cb11edec5c2936e7c90d41957ae6cef759</string>
 	<key>installer_item_location</key>
-	<string>apps/Skype-7.15.0.333.dmg</string>
+	<string>apps/Safe Exam Browser-2.1.dmg</string>
 	<key>installer_item_size</key>
-	<integer>40061</integer>
+	<integer>3646</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.skype.skype</string>
+			<string>org.safeexambrowser.Safe-Exam-Browser</string>
+			<key>CFBundleName</key>
+			<string>SafeExamBrowser</string>
 			<key>CFBundleShortVersionString</key>
-			<string>7.15</string>
+			<string>2.1</string>
 			<key>CFBundleVersion</key>
-			<string>7.15.0.333</string>
+			<string>1162633040692065401</string>
 			<key>minosversion</key>
-			<string>10.9</string>
+			<string>10.7</string>
 			<key>path</key>
-			<string>/Applications/Skype.app</string>
+			<string>/Applications/Safe Exam Browser.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
-			<string>CFBundleVersion</string>
+			<string>CFBundleShortVersionString</string>
 		</dict>
 	</array>
 	<key>items_to_copy</key>
@@ -61,13 +63,13 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Skype.app</string>
+			<string>Safe Exam Browser.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.9</string>
+	<string>10.7</string>
 	<key>name</key>
-	<string>Skype</string>
+	<string>Safe Exam Browser</string>
 	<key>unattended_install</key>
 	<true/>
 	<key>uninstall_method</key>
@@ -75,6 +77,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>7.15.0.333</string>
+	<string>2.1</string>
 </dict>
 </plist>

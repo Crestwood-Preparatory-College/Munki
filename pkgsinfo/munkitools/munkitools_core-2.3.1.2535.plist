@@ -22,7 +22,7 @@
 		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Utilities</string>
+	<string>Information Technology</string>
 	<key>description</key>
 	<string>Core command-line tools used by Managed Software Center.</string>
 	<key>developer</key>

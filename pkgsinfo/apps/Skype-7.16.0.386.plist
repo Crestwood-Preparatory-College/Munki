@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2015-10-30T15:07:11Z</date>
+		<date>2015-11-12T17:15:28Z</date>
 		<key>munki_version</key>
 		<string>2.3.1.2535</string>
 		<key>os_version</key>
@@ -29,11 +29,11 @@
 	<key>display_name</key>
 	<string>Skype</string>
 	<key>installer_item_hash</key>
-	<string>cf7913f434878ef84683a8b1f7b8afa74d09e19e6acba3e527429e5e236031f1</string>
+	<string>2b2c7a8485f0305a1a1446bd571536db3c0829d30b2e180f9d0ead7a616ffbce</string>
 	<key>installer_item_location</key>
-	<string>apps/Skype-7.15.0.333.dmg</string>
+	<string>apps/Skype-7.16.0.386.dmg</string>
 	<key>installer_item_size</key>
-	<integer>40061</integer>
+	<integer>40273</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
@@ -41,10 +41,12 @@
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.skype.skype</string>
+			<key>CFBundleName</key>
+			<string>Skype</string>
 			<key>CFBundleShortVersionString</key>
-			<string>7.15</string>
+			<string>7.16</string>
 			<key>CFBundleVersion</key>
-			<string>7.15.0.333</string>
+			<string>7.16.0.386</string>
 			<key>minosversion</key>
 			<string>10.9</string>
 			<key>path</key>
@@ -75,6 +77,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>7.15.0.333</string>
+	<string>7.16.0.386</string>
 </dict>
 </plist>

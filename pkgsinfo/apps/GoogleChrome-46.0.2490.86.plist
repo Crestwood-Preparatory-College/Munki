@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2015-10-30T15:07:11Z</date>
+		<date>2015-11-12T17:11:03Z</date>
 		<key>munki_version</key>
 		<string>2.3.1.2535</string>
 		<key>os_version</key>
@@ -21,38 +21,40 @@
 		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Communication</string>
+	<string>Internet Browsers</string>
 	<key>description</key>
-	<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+	<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
 	<key>developer</key>
-	<string>Microsoft</string>
+	<string>Google</string>
 	<key>display_name</key>
-	<string>Skype</string>
+	<string>Google Chrome</string>
 	<key>installer_item_hash</key>
-	<string>cf7913f434878ef84683a8b1f7b8afa74d09e19e6acba3e527429e5e236031f1</string>
+	<string>6f6e0930eac9eb63db2e7f4fc793b7473fe55792035ef83069cb81ef8d8ceace</string>
 	<key>installer_item_location</key>
-	<string>apps/Skype-7.15.0.333.dmg</string>
+	<string>apps/GoogleChrome-46.0.2490.86.dmg</string>
 	<key>installer_item_size</key>
-	<integer>40061</integer>
+	<integer>63849</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.skype.skype</string>
+			<string>com.google.Chrome</string>
+			<key>CFBundleName</key>
+			<string>Chrome</string>
 			<key>CFBundleShortVersionString</key>
-			<string>7.15</string>
+			<string>46.0.2490.86</string>
 			<key>CFBundleVersion</key>
-			<string>7.15.0.333</string>
+			<string>2490.86</string>
 			<key>minosversion</key>
-			<string>10.9</string>
+			<string>10.6.0</string>
 			<key>path</key>
-			<string>/Applications/Skype.app</string>
+			<string>/Applications/Google Chrome.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
-			<string>CFBundleVersion</string>
+			<string>CFBundleShortVersionString</string>
 		</dict>
 	</array>
 	<key>items_to_copy</key>
@@ -61,13 +63,13 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Skype.app</string>
+			<string>Google Chrome.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.9</string>
+	<string>10.6.0</string>
 	<key>name</key>
-	<string>Skype</string>
+	<string>GoogleChrome</string>
 	<key>unattended_install</key>
 	<true/>
 	<key>uninstall_method</key>
@@ -75,6 +77,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>7.15.0.333</string>
+	<string>46.0.2490.86</string>
 </dict>
 </plist>

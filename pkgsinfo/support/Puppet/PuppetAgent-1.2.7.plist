@@ -19,6 +19,8 @@
 	<array>
 		<string>testing</string>
 	</array>
+	<key>category</key>
+	<string>Information Technology</string>
 	<key>description</key>
 	<string>Puppet is a configuration management solution that allows you to define the state of your IT infrastructure, and then automatically enforces the desired state</string>
 	<key>developer</key>

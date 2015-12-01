@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>aanklewicz</string>
+		<key>creation_date</key>
+		<date>2015-11-25T15:38:40Z</date>
+		<key>munki_version</key>
+		<string>2.4.0.2561</string>
+		<key>os_version</key>
+		<string>10.11</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>category</key>
+	<string>Development</string>
+	<key>description</key>
+	<string>If you want to make games, what are you waiting for? With GameSalad Creator you can learn the basics and start making games in about an hour. That’s right. You can make your first game in about an hour.</string>
+	<key>developer</key>
+	<string>GameSalad Inc.</string>
+	<key>display_name</key>
+	<string>GameSalad</string>
+	<key>installer_item_hash</key>
+	<string>4ff4101efeb632c8d00a37111f6cd1c9497b78e9177906d84f96bb6768b62749</string>
+	<key>installer_item_location</key>
+	<string>apps/GameSalad/GameSalad-1.24.38.dmg</string>
+	<key>installer_item_size</key>
+	<integer>31476</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.gendaigames.GameSalad</string>
+			<key>CFBundleName</key>
+			<string>GameSalad</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.24.38</string>
+			<key>CFBundleVersion</key>
+			<string>1.24.38</string>
+			<key>minosversion</key>
+			<string>10.7.0</string>
+			<key>path</key>
+			<string>/Applications/GameSalad.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>GameSalad.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.7.0</string>
+	<key>name</key>
+	<string>GameSalad</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.24.38</string>
+</dict>
+</plist>

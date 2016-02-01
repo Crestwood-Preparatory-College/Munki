@@ -7,9 +7,9 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2015-10-22T13:09:49Z</date>
+		<date>2016-01-07T14:36:21Z</date>
 		<key>munki_version</key>
-		<string>2.3.1.2535</string>
+		<string>2.4.0.2561</string>
 		<key>os_version</key>
 		<string>10.11</string>
 	</dict>
@@ -21,36 +21,36 @@
 		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Development</string>
+	<string>Communication</string>
 	<key>description</key>
-	<string>If you want to make games, what are you waiting for? With GameSalad Creator you can learn the basics and start making games in about an hour. That’s right. You can make your first game in about an hour.</string>
+	<string>Mozilla Thunderbird is a free and open source mail client.</string>
 	<key>developer</key>
-	<string>GameSalad Inc.</string>
+	<string>Mozilla</string>
 	<key>display_name</key>
-	<string>GameSalad</string>
+	<string>Mozilla Thunderbird</string>
 	<key>installer_item_hash</key>
-	<string>7dc668dd8dc0ce509f315b7f31c83cf258201b5af829ede8d65bfa425d053bd6</string>
+	<string>69c5e7571cd5593b2434f8b3d676cfde34a26b9ad4339c1438a5d0944287180a</string>
 	<key>installer_item_location</key>
-	<string>apps/GameSalad/GameSalad-1.23.1.dmg</string>
+	<string>apps/thunderbird/Thunderbird-38.5.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>31597</integer>
+	<integer>68322</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.gendaigames.GameSalad</string>
+			<string>org.mozilla.thunderbird</string>
 			<key>CFBundleName</key>
-			<string>GameSalad</string>
+			<string>Thunderbird</string>
 			<key>CFBundleShortVersionString</key>
-			<string>1.23.1</string>
+			<string>38.5.0</string>
 			<key>CFBundleVersion</key>
-			<string>1.23.1</string>
+			<string>38.5.0</string>
 			<key>minosversion</key>
-			<string>10.7.0</string>
+			<string>10.6.0</string>
 			<key>path</key>
-			<string>/Applications/GameSalad.app</string>
+			<string>/Applications/Thunderbird.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -63,13 +63,13 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>GameSalad.app</string>
+			<string>Thunderbird.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.7.0</string>
+	<string>10.6.0</string>
 	<key>name</key>
-	<string>GameSalad</string>
+	<string>Thunderbird</string>
 	<key>unattended_install</key>
 	<true/>
 	<key>uninstall_method</key>
@@ -77,6 +77,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>1.23.1</string>
+	<string>38.5.0</string>
 </dict>
 </plist>

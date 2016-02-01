@@ -7,9 +7,9 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2015-10-22T13:09:49Z</date>
+		<date>2016-01-06T21:00:09Z</date>
 		<key>munki_version</key>
-		<string>2.3.1.2535</string>
+		<string>2.4.0.2561</string>
 		<key>os_version</key>
 		<string>10.11</string>
 	</dict>
@@ -18,39 +18,38 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
-		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Development</string>
+	<string>Multimedia</string>
 	<key>description</key>
-	<string>If you want to make games, what are you waiting for? With GameSalad Creator you can learn the basics and start making games in about an hour. That’s right. You can make your first game in about an hour.</string>
+	<string>Turns your Mac into a TV studio for creating Live to Disk, Live to Internet and Live to Stage video. Record stunning studio shows, podcasts, sports events, concerts, interviews, sermons, seminars and more using your Mac and multiple cameras.</string>
 	<key>developer</key>
-	<string>GameSalad Inc.</string>
+	<string>Boinx</string>
 	<key>display_name</key>
-	<string>GameSalad</string>
+	<string>Boinx Software BoinxTV</string>
 	<key>installer_item_hash</key>
-	<string>7dc668dd8dc0ce509f315b7f31c83cf258201b5af829ede8d65bfa425d053bd6</string>
+	<string>e5092c5e18c208058fe46914b422c111238313834b24996c69272df0ab2e0a70</string>
 	<key>installer_item_location</key>
-	<string>apps/GameSalad/GameSalad-1.23.1.dmg</string>
+	<string>Boinx/BoinxTV-1.9.13.dmg</string>
 	<key>installer_item_size</key>
-	<integer>31597</integer>
+	<integer>53062</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.gendaigames.GameSalad</string>
+			<string>com.boinx.BoinxTV</string>
 			<key>CFBundleName</key>
-			<string>GameSalad</string>
+			<string>BoinxTV</string>
 			<key>CFBundleShortVersionString</key>
-			<string>1.23.1</string>
+			<string>1.9.13</string>
 			<key>CFBundleVersion</key>
-			<string>1.23.1</string>
+			<string>17159</string>
 			<key>minosversion</key>
-			<string>10.7.0</string>
+			<string>10.6.8</string>
 			<key>path</key>
-			<string>/Applications/GameSalad.app</string>
+			<string>/Applications/BoinxTV.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -63,20 +62,27 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>GameSalad.app</string>
+			<string>BoinxTV.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.7.0</string>
+	<string>10.6.8</string>
 	<key>name</key>
-	<string>GameSalad</string>
+	<string>BoinxTV</string>
+	<key>supported_architectures</key>
+	<array>
+		<string>i386</string>
+		<string>x86_64</string>
+	</array>
 	<key>unattended_install</key>
+	<true/>
+	<key>unattended_uninstall</key>
 	<true/>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>1.23.1</string>
+	<string>1.9.13</string>
 </dict>
 </plist>

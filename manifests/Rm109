@@ -8,6 +8,7 @@
 	</array>
 	<key>managed_installs</key>
 	<array>
+		<string>Art Night Presentations</string>
 		<string>Audacity</string>
 		<string>Comic Life 2</string>
 		<string>GameSalad</string>
@@ -22,9 +23,12 @@
 		<string>OS X 10.11.0 El Capitan</string>
 		<string>Pages</string>
 		<string>Safe Exam Browser</string>
+		<string>Scribus</string>
+		<string>Stencyl</string>
 		<string>TextWrangler</string>
 		<string>ToonBoom Harmony</string>
 		<string>WinclonePro4</string>
+		<string>Xcode</string>
 	</array>
 	<key>optional_installs</key>
 	<array>

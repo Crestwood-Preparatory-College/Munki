@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>aanklewicz</string>
+		<key>creation_date</key>
+		<date>2016-01-13T13:17:58Z</date>
+		<key>munki_version</key>
+		<string>2.4.0.2561</string>
+		<key>os_version</key>
+		<string>10.11</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>production</string>
+	</array>
+	<key>category</key>
+	<string>Multimedia</string>
+	<key>description</key>
+	<string>Scribus is an Open Source program that brings professional page layout to Linux, BSD UNIX, Solaris, OpenIndiana, GNU/Hurd, Mac OS X, OS/2 Warp 4, eComStation, Windows and Haiku desktops with a combination of press-ready output and new approaches to page design.</string>
+	<key>developer</key>
+	<string>Scribus Team</string>
+	<key>display_name</key>
+	<string>Scribus</string>
+	<key>installed_size</key>
+	<integer>187308</integer>
+	<key>installer_item_hash</key>
+	<string>8d72cfd4fd901aea77e1de368098524ed69e970ae96815c2acfa336c03984372</string>
+	<key>installer_item_location</key>
+	<string>apps/Scribus/Scribus-1.4.5.pkg</string>
+	<key>installer_item_size</key>
+	<integer>98719</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>Scribus</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>187308</integer>
+			<key>packageid</key>
+			<string>net.scribus.scribus145.scribus.pkg</string>
+			<key>version</key>
+			<string>1.4.5</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.4.5</string>
+</dict>
+</plist>

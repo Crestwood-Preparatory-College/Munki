@@ -2108,6 +2108,74 @@ rm -R /Applications/FirstClass.app</string>
 	<dict>
 		<key>autoremove</key>
 		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Internet Browsers</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>icon_hash</key>
+		<string>5cbec5cdef65ede7d4a2f6899e3e9343bb7d6c2285f1b1e217e07b635e21f839</string>
+		<key>installer_item_hash</key>
+		<string>757b8ee768523cf627a66e283389bdd9af250d375055945adcefa45b236fcc98</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-48.0.2564.97.dmg</string>
+		<key>installer_item_size</key>
+		<integer>64612</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>48.0.2564.97</string>
+				<key>CFBundleVersion</key>
+				<string>2564.97</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>48.0.2564.97</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
 		<key>blocking_applications</key>
 		<array>
 			<string>1Password</string>
@@ -2180,6 +2248,74 @@ rm -R /Applications/FirstClass.app</string>
 		<true/>
 		<key>version</key>
 		<string>5.4.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Communication</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>icon_hash</key>
+		<string>434fa31eed2db112b701b760460d7b78d6cb8e9eb8f7678967ba9c32674a41ce</string>
+		<key>installer_item_hash</key>
+		<string>5c8aa41eb950ea7352395cbb0910889bb68e752aa7621e997648e979153ca338</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.20.0.378.dmg</string>
+		<key>installer_item_size</key>
+		<integer>43136</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleName</key>
+				<string>Skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.20</string>
+				<key>CFBundleVersion</key>
+				<string>7.20.0.378</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.20.0.378</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -5445,6 +5581,74 @@ fi
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Internet Browsers</string>
+		<key>description</key>
+		<string>Opera products enable more than 350 million internet consumers to discover and connect with the content and services that matter most to them, no matter what device, network or location. In turn, we help advertisers reach the audiences that build value for their businesses. Opera also delivers products and services to more than 120 operators around the world, enabling them to provide a faster, more economical and better network experience to their subscribers.</string>
+		<key>developer</key>
+		<string>Opera Software Asa</string>
+		<key>display_name</key>
+		<string>Opera</string>
+		<key>icon_hash</key>
+		<string>85f3e37c84b016438047a8e2c7a2e68e1918b24eaa65a812047662e1eb5a6ba9</string>
+		<key>installer_item_hash</key>
+		<string>1530503e76dd478d2c159a4a994c7b2a70edf73cf8595ff4ae84a1aec2756b7f</string>
+		<key>installer_item_location</key>
+		<string>apps/Opera/Opera-35.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>55163</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.operasoftware.Opera</string>
+				<key>CFBundleName</key>
+				<string>Opera</string>
+				<key>CFBundleShortVersionString</key>
+				<string>35.0</string>
+				<key>CFBundleVersion</key>
+				<string>35.0.2066.37</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/Opera.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Opera.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>Opera</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>35.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>category</key>
@@ -5917,6 +6121,72 @@ fi
 		<true/>
 		<key>version</key>
 		<string>2.1.0.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Multimedia</string>
+		<key>description</key>
+		<string>Audacity is a free, easy-to-use, multi-track audio editor and recorder for Windows, Mac OS X, GNU/Linux and other operating systems.</string>
+		<key>developer</key>
+		<string>The Audacity Team</string>
+		<key>display_name</key>
+		<string>Audacity</string>
+		<key>icon_hash</key>
+		<string>cfcb183cca4ea3ce0c271a536a573d9c8fc3fdb13150af714ace18e20ca61bcb</string>
+		<key>installer_item_hash</key>
+		<string>2e4b7d608ecc0d2f79bf16663f085d383075e488f7d50bf7d74c0b69173defe7</string>
+		<key>installer_item_location</key>
+		<string>apps/Audacity/audacity-macosx-ub-2.1.2-2.1.2.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>33890</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>net.sourceforge.audacity</string>
+				<key>CFBundleName</key>
+				<string>Audacity</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.1.2.0</string>
+				<key>CFBundleVersion</key>
+				<string>2.1.2.0</string>
+				<key>path</key>
+				<string>/Applications/Audacity/Audacity.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Audacity</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Audacity</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.1.2.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -7552,6 +7822,74 @@ fi
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Internet Browsers</string>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>icon_hash</key>
+		<string>8d6b01e0fced090f31c6d040f8bb24926013522ee6cccf1b438a4a2430574aa6</string>
+		<key>installer_item_hash</key>
+		<string>74f7d4041f2582553a460fd8249575dfc501b57bdee37f43083e8d7277d2d722</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-44.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>80548</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>44.0</string>
+				<key>CFBundleVersion</key>
+				<string>4416.1.23</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>44.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>category</key>
@@ -7700,6 +8038,81 @@ fi
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Image Manipulation</string>
+		<key>description</key>
+		<string>GIMP is the GNU Image Manipulation Program. It is a freely distributed piece of software for such tasks as photo retouching, image composition and image authoring. It works on many operating systems, in many languages.</string>
+		<key>developer</key>
+		<string>The GIMP Team</string>
+		<key>display_name</key>
+		<string>GIMP</string>
+		<key>icon_hash</key>
+		<string>04827fbd2dd83d65cb58ec85b79eaadebb52c22d80112ff869eaf131b2931f70</string>
+		<key>installer_item_hash</key>
+		<string>bd84e6e6af21ee76c664654dc47344655086d0587de807418517dd1ec57b1e09</string>
+		<key>installer_item_location</key>
+		<string>apps/GIMP/GIMP-2.8.16.dmg</string>
+		<key>installer_item_size</key>
+		<integer>54595</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.gnome.gimp</string>
+				<key>CFBundleName</key>
+				<string>GIMP</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.8.16</string>
+				<key>CFBundleVersion</key>
+				<string>2.8.16</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/GIMP.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>GIMP.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>GIMP</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.8.16</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Gimp</string>
+			<string>GIMP</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>category</key>
@@ -7762,6 +8175,74 @@ fi
 		<true/>
 		<key>version</key>
 		<string>2.8.14p2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Multimedia</string>
+		<key>description</key>
+		<string>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.</string>
+		<key>developer</key>
+		<string>The Handbrake Team</string>
+		<key>display_name</key>
+		<string>Handbrake</string>
+		<key>icon_hash</key>
+		<string>f91e99efd1753bd24c3cce822c96480cdac14d627dc019cdf14ebe8b68330b56</string>
+		<key>installer_item_hash</key>
+		<string>5bf327f6d42901668490338c32eab8cc2d4db3e09ea1cb9b8c44573ed8fb5dda</string>
+		<key>installer_item_location</key>
+		<string>apps/Handbrake/Handbrake-0.10.3 x86_64.dmg</string>
+		<key>installer_item_size</key>
+		<integer>10459</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>fr.handbrake.HandBrake</string>
+				<key>CFBundleName</key>
+				<string>HandBrake</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.10.3 x86_64</string>
+				<key>CFBundleVersion</key>
+				<string>2016012200</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/HandBrake.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>HandBrake.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Handbrake</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.10.3 x86_64</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -13636,6 +14117,74 @@ done
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Development</string>
+		<key>description</key>
+		<string>If you want to make games, what are you waiting for? With GameSalad Creator you can learn the basics and start making games in about an hour. That’s right. You can make your first game in about an hour.</string>
+		<key>developer</key>
+		<string>GameSalad Inc.</string>
+		<key>display_name</key>
+		<string>GameSalad</string>
+		<key>icon_hash</key>
+		<string>b4328b4cb924376cadb49e3b4f3972d3476c8c1d52337e0e7c757fecdc7b897e</string>
+		<key>installer_item_hash</key>
+		<string>6014804d408b0cdb731b1dd1c4ca9e2071c197763a69404bd333d2db510259dc</string>
+		<key>installer_item_location</key>
+		<string>apps/GameSalad/GameSalad-1.24.42.dmg</string>
+		<key>installer_item_size</key>
+		<integer>31469</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.gendaigames.GameSalad</string>
+				<key>CFBundleName</key>
+				<string>GameSalad</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.24.42</string>
+				<key>CFBundleVersion</key>
+				<string>1.24.42</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/GameSalad.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>GameSalad.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>GameSalad</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.24.42</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>category</key>
@@ -15437,6 +15986,53 @@ done
 		<key>category</key>
 		<string>Information Technology</string>
 		<key>description</key>
+		<string>Facter is an independent, cross-platform Ruby library designed to gather information on all the nodes you will managing with Puppet.</string>
+		<key>developer</key>
+		<string>Puppetlabs</string>
+		<key>display_name</key>
+		<string>Facter</string>
+		<key>installed_size</key>
+		<integer>397</integer>
+		<key>installer_item_hash</key>
+		<string>b90ee538e36c0a9838de60bb78dd132fd60971a71228d222d5106f8f84332817</string>
+		<key>installer_item_location</key>
+		<string>support/Facter/Facter-2.4.6.dmg</string>
+		<key>installer_item_size</key>
+		<integer>124</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Facter</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>397</integer>
+				<key>packageid</key>
+				<string>com.puppetlabs.facter</string>
+				<key>version</key>
+				<string>2.4.6</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.4.6</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Information Technology</string>
+		<key>description</key>
 		<string>Hiera is a simple pluggable Hierarchical Database.</string>
 		<key>developer</key>
 		<string>Puppetlabs</string>
@@ -15620,6 +16216,55 @@ done
 		<true/>
 		<key>version</key>
 		<string>1.3.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Information Technology</string>
+		<key>description</key>
+		<string>Puppet is a configuration management solution that allows you to define the state of your IT infrastructure, and then automatically enforces the desired state</string>
+		<key>developer</key>
+		<string>Puppetlabs</string>
+		<key>display_name</key>
+		<string>Puppet Agent</string>
+		<key>installed_size</key>
+		<integer>75147</integer>
+		<key>installer_item_hash</key>
+		<string>a4ac017729c4f6bfdcce911212f08450096d1556934deee0575046b8dcfc304c</string>
+		<key>installer_item_location</key>
+		<string>support/Puppet/puppetagent10.10-1.3.4.dmg</string>
+		<key>installer_item_size</key>
+		<integer>22674</integer>
+		<key>maximum_os_version</key>
+		<string>10.10.99</string>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>PuppetAgent</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>75147</integer>
+				<key>packageid</key>
+				<string>com.puppetlabs.puppet-agent</string>
+				<key>version</key>
+				<string>1.3.4</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.3.4</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -16027,6 +16672,57 @@ done
 		<true/>
 		<key>version</key>
 		<string>20.0.0.235</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Multimedia</string>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>icon_hash</key>
+		<string>d3067d9575cab38a71f2313a30da44e21c3093818b5535dbaa8519bfd67b8ac6</string>
+		<key>installed_size</key>
+		<integer>17383</integer>
+		<key>installer_item_hash</key>
+		<string>eb373ccb04b3ad77fe2eceeedca15a8d25cd632eabd3c18408216544c5887a6a</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-20.0.0.286.dmg</string>
+		<key>installer_item_size</key>
+		<integer>16574</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>17383</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>20.0.0.286</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>20.0.0.286</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

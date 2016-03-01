@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2016-02-01T16:03:48Z</date>
+		<date>2016-02-23T17:40:24Z</date>
 		<key>munki_version</key>
 		<string>2.4.0.2561</string>
 		<key>os_version</key>
@@ -23,34 +23,34 @@
 	<key>category</key>
 	<string>Internet Browsers</string>
 	<key>description</key>
-	<string>Mozilla Firefox is a free and open source web browser.</string>
+	<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
 	<key>developer</key>
-	<string>Mozilla</string>
+	<string>Google</string>
 	<key>display_name</key>
-	<string>Mozilla Firefox</string>
+	<string>Google Chrome</string>
 	<key>installer_item_hash</key>
-	<string>74f7d4041f2582553a460fd8249575dfc501b57bdee37f43083e8d7277d2d722</string>
+	<string>b07e005137280486d7b9615da95ef216dde7480593d7d6335389040719aac200</string>
 	<key>installer_item_location</key>
-	<string>apps/firefox/Firefox-44.0.dmg</string>
+	<string>apps/GoogleChrome-48.0.2564.116.dmg</string>
 	<key>installer_item_size</key>
-	<integer>80548</integer>
+	<integer>64624</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>org.mozilla.firefox</string>
+			<string>com.google.Chrome</string>
 			<key>CFBundleName</key>
-			<string>Firefox</string>
+			<string>Chrome</string>
 			<key>CFBundleShortVersionString</key>
-			<string>44.0</string>
+			<string>48.0.2564.116</string>
 			<key>CFBundleVersion</key>
-			<string>4416.1.23</string>
+			<string>2564.116</string>
 			<key>minosversion</key>
-			<string>10.6</string>
+			<string>10.6.0</string>
 			<key>path</key>
-			<string>/Applications/Firefox.app</string>
+			<string>/Applications/Google Chrome.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -63,13 +63,13 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Firefox.app</string>
+			<string>Google Chrome.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.6</string>
+	<string>10.6.0</string>
 	<key>name</key>
-	<string>Firefox</string>
+	<string>GoogleChrome</string>
 	<key>unattended_install</key>
 	<true/>
 	<key>uninstall_method</key>
@@ -77,6 +77,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>44.0</string>
+	<string>48.0.2564.116</string>
 </dict>
 </plist>

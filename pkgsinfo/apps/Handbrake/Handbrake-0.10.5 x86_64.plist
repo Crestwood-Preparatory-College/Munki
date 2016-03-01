@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2016-02-01T16:03:48Z</date>
+		<date>2016-02-23T18:22:08Z</date>
 		<key>munki_version</key>
 		<string>2.4.0.2561</string>
 		<key>os_version</key>
@@ -21,40 +21,40 @@
 		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Internet Browsers</string>
+	<string>Multimedia</string>
 	<key>description</key>
-	<string>Mozilla Firefox is a free and open source web browser.</string>
+	<string>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.</string>
 	<key>developer</key>
-	<string>Mozilla</string>
+	<string>The Handbrake Team</string>
 	<key>display_name</key>
-	<string>Mozilla Firefox</string>
+	<string>Handbrake</string>
 	<key>installer_item_hash</key>
-	<string>74f7d4041f2582553a460fd8249575dfc501b57bdee37f43083e8d7277d2d722</string>
+	<string>a2f1cacfb508e5ebe2489c64fa15204f15578aaf5e7f8a5ae9ab1fdccde51222</string>
 	<key>installer_item_location</key>
-	<string>apps/firefox/Firefox-44.0.dmg</string>
+	<string>apps/Handbrake/Handbrake-0.10.5 x86_64.dmg</string>
 	<key>installer_item_size</key>
-	<integer>80548</integer>
+	<integer>10506</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>org.mozilla.firefox</string>
+			<string>fr.handbrake.HandBrake</string>
 			<key>CFBundleName</key>
-			<string>Firefox</string>
+			<string>HandBrake</string>
 			<key>CFBundleShortVersionString</key>
-			<string>44.0</string>
+			<string>0.10.5 x86_64</string>
 			<key>CFBundleVersion</key>
-			<string>4416.1.23</string>
+			<string>2016021100</string>
 			<key>minosversion</key>
 			<string>10.6</string>
 			<key>path</key>
-			<string>/Applications/Firefox.app</string>
+			<string>/Applications/HandBrake.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
-			<string>CFBundleShortVersionString</string>
+			<string>CFBundleVersion</string>
 		</dict>
 	</array>
 	<key>items_to_copy</key>
@@ -63,13 +63,13 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Firefox.app</string>
+			<string>HandBrake.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
 	<string>10.6</string>
 	<key>name</key>
-	<string>Firefox</string>
+	<string>Handbrake</string>
 	<key>unattended_install</key>
 	<true/>
 	<key>uninstall_method</key>
@@ -77,6 +77,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>44.0</string>
+	<string>0.10.5 x86_64</string>
 </dict>
 </plist>

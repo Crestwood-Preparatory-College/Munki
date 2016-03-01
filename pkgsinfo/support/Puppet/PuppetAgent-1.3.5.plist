@@ -7,48 +7,49 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2016-01-07T14:14:48Z</date>
+		<date>2016-02-23T17:24:15Z</date>
 		<key>munki_version</key>
 		<string>2.4.0.2561</string>
 		<key>os_version</key>
-		<string>10.11</string>
+		<string>10.11.2</string>
 	</dict>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
-		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Multimedia</string>
+	<string>Information Technology</string>
 	<key>description</key>
-	<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
+	<string>Puppet is a configuration management solution that allows you to define the state of your IT infrastructure, and then automatically enforces the desired state</string>
 	<key>developer</key>
-	<string>Adobe</string>
+	<string>Puppetlabs</string>
 	<key>display_name</key>
-	<string>Adobe® Integrated Runtime</string>
+	<string>Puppet Agent</string>
 	<key>installed_size</key>
-	<integer>129223</integer>
+	<integer>75156</integer>
 	<key>installer_item_hash</key>
-	<string>ee240a03042c8d33b95b188136ba9f1e3eb0641c716887f9178fbab8b498442e</string>
+	<string>e2a10faa7c5a12c10b01888205e41ca4a4ff4b73d40c1a4c2dda47b59b3da0d7</string>
 	<key>installer_item_location</key>
-	<string>apps/adobe/AdobeAIR-20.0.0.233__1.pkg</string>
+	<string>support/Puppet/puppetagent10.10-1.3.5.dmg</string>
 	<key>installer_item_size</key>
-	<integer>55616</integer>
+	<integer>22676</integer>
+	<key>maximum_os_version</key>
+	<string>10.10.99</string>
 	<key>minimum_os_version</key>
-	<string>10.5.0</string>
+	<string>10.10.0</string>
 	<key>name</key>
-	<string>AdobeAIR</string>
+	<string>PuppetAgent</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>129223</integer>
+			<integer>75156</integer>
 			<key>packageid</key>
-			<string>com.adobe.pkg.AIR</string>
+			<string>com.puppetlabs.puppet-agent</string>
 			<key>version</key>
-			<string>20.0.0.233</string>
+			<string>1.3.5</string>
 		</dict>
 	</array>
 	<key>unattended_install</key>
@@ -58,6 +59,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>20.0.0.233</string>
+	<string>1.3.5</string>
 </dict>
 </plist>

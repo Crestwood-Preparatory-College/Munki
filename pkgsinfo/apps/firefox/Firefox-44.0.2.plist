@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2016-02-01T16:03:48Z</date>
+		<date>2016-02-23T17:33:49Z</date>
 		<key>munki_version</key>
 		<string>2.4.0.2561</string>
 		<key>os_version</key>
@@ -29,11 +29,11 @@
 	<key>display_name</key>
 	<string>Mozilla Firefox</string>
 	<key>installer_item_hash</key>
-	<string>74f7d4041f2582553a460fd8249575dfc501b57bdee37f43083e8d7277d2d722</string>
+	<string>311f4114ab6159ec6b2795d43d787f292236cdb92d89a400f9b617cca60d9515</string>
 	<key>installer_item_location</key>
-	<string>apps/firefox/Firefox-44.0.dmg</string>
+	<string>apps/firefox/Firefox-44.0.2.dmg</string>
 	<key>installer_item_size</key>
-	<integer>80548</integer>
+	<integer>80551</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
@@ -44,9 +44,9 @@
 			<key>CFBundleName</key>
 			<string>Firefox</string>
 			<key>CFBundleShortVersionString</key>
-			<string>44.0</string>
+			<string>44.0.2</string>
 			<key>CFBundleVersion</key>
-			<string>4416.1.23</string>
+			<string>4416.2.10</string>
 			<key>minosversion</key>
 			<string>10.6</string>
 			<key>path</key>
@@ -77,6 +77,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>44.0</string>
+	<string>44.0.2</string>
 </dict>
 </plist>

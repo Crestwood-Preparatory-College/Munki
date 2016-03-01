@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2016-02-01T16:03:48Z</date>
+		<date>2016-02-23T17:53:50Z</date>
 		<key>munki_version</key>
 		<string>2.4.0.2561</string>
 		<key>os_version</key>
@@ -21,40 +21,40 @@
 		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Internet Browsers</string>
+	<string>Communication</string>
 	<key>description</key>
-	<string>Mozilla Firefox is a free and open source web browser.</string>
+	<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
 	<key>developer</key>
-	<string>Mozilla</string>
+	<string>Microsoft</string>
 	<key>display_name</key>
-	<string>Mozilla Firefox</string>
+	<string>Skype</string>
 	<key>installer_item_hash</key>
-	<string>74f7d4041f2582553a460fd8249575dfc501b57bdee37f43083e8d7277d2d722</string>
+	<string>bddc842c3fc856b85e509dbb29f7792de7cc2704c87e9837a926151e0f417b16</string>
 	<key>installer_item_location</key>
-	<string>apps/firefox/Firefox-44.0.dmg</string>
+	<string>apps/Skype-7.21.0.350.dmg</string>
 	<key>installer_item_size</key>
-	<integer>80548</integer>
+	<integer>43213</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>org.mozilla.firefox</string>
+			<string>com.skype.skype</string>
 			<key>CFBundleName</key>
-			<string>Firefox</string>
+			<string>Skype</string>
 			<key>CFBundleShortVersionString</key>
-			<string>44.0</string>
+			<string>7.21</string>
 			<key>CFBundleVersion</key>
-			<string>4416.1.23</string>
+			<string>7.21.0.350</string>
 			<key>minosversion</key>
-			<string>10.6</string>
+			<string>10.9</string>
 			<key>path</key>
-			<string>/Applications/Firefox.app</string>
+			<string>/Applications/Skype.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
-			<string>CFBundleShortVersionString</string>
+			<string>CFBundleVersion</string>
 		</dict>
 	</array>
 	<key>items_to_copy</key>
@@ -63,13 +63,13 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Firefox.app</string>
+			<string>Skype.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.6</string>
+	<string>10.9</string>
 	<key>name</key>
-	<string>Firefox</string>
+	<string>Skype</string>
 	<key>unattended_install</key>
 	<true/>
 	<key>uninstall_method</key>
@@ -77,6 +77,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>44.0</string>
+	<string>7.21.0.350</string>
 </dict>
 </plist>

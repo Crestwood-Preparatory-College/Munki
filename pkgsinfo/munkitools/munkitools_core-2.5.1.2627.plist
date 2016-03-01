@@ -7,49 +7,54 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2016-01-07T14:14:48Z</date>
+		<date>2016-02-26T13:39:57Z</date>
 		<key>munki_version</key>
-		<string>2.4.0.2561</string>
+		<string>2.5.0.2626</string>
 		<key>os_version</key>
-		<string>10.11</string>
+		<string>10.11.2</string>
 	</dict>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array>
-		<string>testing</string>
+		<string>development</string>
 		<string>production</string>
+		<string>testing</string>
 	</array>
 	<key>category</key>
-	<string>Multimedia</string>
+	<string>Information Technology</string>
 	<key>description</key>
-	<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
+	<string>Core command-line tools used by Managed Software Center.</string>
 	<key>developer</key>
-	<string>Adobe</string>
+	<string>The Munki Team</string>
 	<key>display_name</key>
-	<string>Adobe® Integrated Runtime</string>
+	<string>Managed Software Center core tools</string>
 	<key>installed_size</key>
-	<integer>129223</integer>
+	<integer>648</integer>
 	<key>installer_item_hash</key>
-	<string>ee240a03042c8d33b95b188136ba9f1e3eb0641c716887f9178fbab8b498442e</string>
+	<string>0ba135901f1c79d57fc4089f02a58fc83cafcf3c6346acb98b338fef3ff71be7</string>
 	<key>installer_item_location</key>
-	<string>apps/adobe/AdobeAIR-20.0.0.233__1.pkg</string>
+	<string>munkitools/munkitools_core-2.5.1.2627.pkg</string>
 	<key>installer_item_size</key>
-	<integer>55616</integer>
+	<integer>144</integer>
 	<key>minimum_os_version</key>
-	<string>10.5.0</string>
+	<string>10.6.0</string>
 	<key>name</key>
-	<string>AdobeAIR</string>
+	<string>munkitools_core</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>129223</integer>
+			<integer>648</integer>
 			<key>packageid</key>
-			<string>com.adobe.pkg.AIR</string>
+			<string>com.googlecode.munki.core</string>
 			<key>version</key>
-			<string>20.0.0.233</string>
+			<string>2.5.1.2627</string>
 		</dict>
+	</array>
+	<key>requires</key>
+	<array>
+		<string>munkitools_launchd</string>
 	</array>
 	<key>unattended_install</key>
 	<true/>
@@ -58,6 +63,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>20.0.0.233</string>
+	<string>2.5.1.2627</string>
 </dict>
 </plist>

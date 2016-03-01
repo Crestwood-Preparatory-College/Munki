@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>aanklewicz</string>
 		<key>creation_date</key>
-		<date>2016-02-01T16:03:48Z</date>
+		<date>2016-02-23T18:35:28Z</date>
 		<key>munki_version</key>
 		<string>2.4.0.2561</string>
 		<key>os_version</key>
@@ -21,36 +21,36 @@
 		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Internet Browsers</string>
+	<string>Email</string>
 	<key>description</key>
-	<string>Mozilla Firefox is a free and open source web browser.</string>
+	<string>Mozilla Thunderbird is a free and open source mail client.</string>
 	<key>developer</key>
 	<string>Mozilla</string>
 	<key>display_name</key>
-	<string>Mozilla Firefox</string>
+	<string>Mozilla Thunderbird</string>
 	<key>installer_item_hash</key>
-	<string>74f7d4041f2582553a460fd8249575dfc501b57bdee37f43083e8d7277d2d722</string>
+	<string>ad6f9a2727c97b9435584eb1588715fde075c92f3ede559685d955a1212f9bf1</string>
 	<key>installer_item_location</key>
-	<string>apps/firefox/Firefox-44.0.dmg</string>
+	<string>apps/thunderbird/Thunderbird-38.6.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>80548</integer>
+	<integer>68416</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>org.mozilla.firefox</string>
+			<string>org.mozilla.thunderbird</string>
 			<key>CFBundleName</key>
-			<string>Firefox</string>
+			<string>Thunderbird</string>
 			<key>CFBundleShortVersionString</key>
-			<string>44.0</string>
+			<string>38.6.0</string>
 			<key>CFBundleVersion</key>
-			<string>4416.1.23</string>
+			<string>38.6.0</string>
 			<key>minosversion</key>
-			<string>10.6</string>
+			<string>10.6.0</string>
 			<key>path</key>
-			<string>/Applications/Firefox.app</string>
+			<string>/Applications/Thunderbird.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -63,13 +63,13 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Firefox.app</string>
+			<string>Thunderbird.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.6</string>
+	<string>10.6.0</string>
 	<key>name</key>
-	<string>Firefox</string>
+	<string>Thunderbird</string>
 	<key>unattended_install</key>
 	<true/>
 	<key>uninstall_method</key>
@@ -77,6 +77,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>44.0</string>
+	<string>38.6.0</string>
 </dict>
 </plist>

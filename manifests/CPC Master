@@ -18,6 +18,7 @@
 		<string>munkitools_core</string>
 		<string>munkitools_launchd</string>
 		<string>OracleJava8</string>
+		<string>Park Lane</string>
 		<string>Silverlight</string>
 		<string>Skype</string>
 		<string>TheUnarchiver</string>
@@ -32,6 +33,7 @@
 	<array>
 		<string>1Password</string>
 		<string>Comic Life 2</string>
+		<string>Eclipse</string>
 		<string>GameSalad</string>
 		<string>GIMP</string>
 		<string>GitHub</string>

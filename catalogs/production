@@ -8000,6 +8000,74 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
+			<string>development</string>
+			<string>production</string>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Multimedia</string>
+		<key>developer</key>
+		<string>Apple, Inc.</string>
+		<key>display_name</key>
+		<string>iMovie</string>
+		<key>icon_hash</key>
+		<string>6183b1eb6185fc6d9c7a903c6d36eeffe98bbad0635cfaa082b74bdb989e1cbc</string>
+		<key>installer_item_hash</key>
+		<string>06a9b7a58fd13d97812e26e73b795da135e377d0ff9a998692ffe3f2943459c8</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/iMovie-10.1.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>2050141</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iMovieApp</string>
+				<key>CFBundleName</key>
+				<string>iMovie</string>
+				<key>CFBundleShortVersionString</key>
+				<string>10.1.1</string>
+				<key>CFBundleVersion</key>
+				<string>275755</string>
+				<key>minosversion</key>
+				<string>10.10.5</string>
+				<key>path</key>
+				<string>/Applications/iMovie.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>iMovie.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.5</string>
+		<key>name</key>
+		<string>iMovie</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>10.1.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
 			<string>production</string>
 			<string>testing</string>
 		</array>
@@ -16454,6 +16522,101 @@ done
 		</array>
 		<key>version</key>
 		<string>2.5.1.2627</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Fonts</string>
+		<key>description</key>
+		<string>20's Style Font</string>
+		<key>developer</key>
+		<string>Crestwood Prep</string>
+		<key>display_name</key>
+		<string>Park Lane Font</string>
+		<key>installed_size</key>
+		<integer>75</integer>
+		<key>installer_item_hash</key>
+		<string>55bb37fd136b0fb975758d116481d1e58ec9a200f86cd59ca80833bbe05aee7f</string>
+		<key>installer_item_location</key>
+		<string>fonts/Park Lane-1.0.pkg</string>
+		<key>installer_item_size</key>
+		<integer>33</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Park Lane</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>75</integer>
+				<key>packageid</key>
+				<string>parklane</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Development</string>
+		<key>description</key>
+		<string>The essential tools for any Java developer, including a Java IDE, a CVS client, Git client, XML Editor, Mylyn, Maven integration...</string>
+		<key>developer</key>
+		<string>Eclipse Foundation</string>
+		<key>display_name</key>
+		<string>Eclipse IDE for Java Developers</string>
+		<key>icon_hash</key>
+		<string>063a6b1967f6e827efa068bae231a810fb933e751266802c3237a1c804ce9d0a</string>
+		<key>installed_size</key>
+		<integer>191322</integer>
+		<key>installer_item_hash</key>
+		<string>733bd59fd64dabc23efc1e9d87d13498649f0293156bd3c80da42f5afa30908d</string>
+		<key>installer_item_location</key>
+		<string>developer/Eclipse-4.5.2__1.pkg</string>
+		<key>installer_item_size</key>
+		<integer>170208</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Eclipse</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>191322</integer>
+				<key>packageid</key>
+				<string>org.eclipse.platform.ide</string>
+				<key>version</key>
+				<string>4.5.2</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>4.5.2</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

@@ -8518,6 +8518,74 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
+			<string>development</string>
+			<string>production</string>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Multimedia</string>
+		<key>developer</key>
+		<string>Apple, Inc.</string>
+		<key>display_name</key>
+		<string>iMovie</string>
+		<key>icon_hash</key>
+		<string>6183b1eb6185fc6d9c7a903c6d36eeffe98bbad0635cfaa082b74bdb989e1cbc</string>
+		<key>installer_item_hash</key>
+		<string>06a9b7a58fd13d97812e26e73b795da135e377d0ff9a998692ffe3f2943459c8</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/iMovie-10.1.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>2050141</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iMovieApp</string>
+				<key>CFBundleName</key>
+				<string>iMovie</string>
+				<key>CFBundleShortVersionString</key>
+				<string>10.1.1</string>
+				<key>CFBundleVersion</key>
+				<string>275755</string>
+				<key>minosversion</key>
+				<string>10.10.5</string>
+				<key>path</key>
+				<string>/Applications/iMovie.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>iMovie.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.5</string>
+		<key>name</key>
+		<string>iMovie</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>10.1.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
 			<string>production</string>
 			<string>testing</string>
 		</array>
@@ -16935,6 +17003,56 @@ done
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Development</string>
+		<key>description</key>
+		<string>The essential tools for any Java developer, including a Java IDE, a CVS client, Git client, XML Editor, Mylyn, Maven integration...</string>
+		<key>developer</key>
+		<string>Eclipse Foundation</string>
+		<key>display_name</key>
+		<string>Eclipse IDE for Java Developers</string>
+		<key>icon_hash</key>
+		<string>063a6b1967f6e827efa068bae231a810fb933e751266802c3237a1c804ce9d0a</string>
+		<key>installed_size</key>
+		<integer>191322</integer>
+		<key>installer_item_hash</key>
+		<string>733bd59fd64dabc23efc1e9d87d13498649f0293156bd3c80da42f5afa30908d</string>
+		<key>installer_item_location</key>
+		<string>developer/Eclipse-4.5.2__1.pkg</string>
+		<key>installer_item_size</key>
+		<integer>170208</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Eclipse</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>191322</integer>
+				<key>packageid</key>
+				<string>org.eclipse.platform.ide</string>
+				<key>version</key>
+				<string>4.5.2</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>4.5.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
 		</array>
 		<key>category</key>
 		<string>Information Technology</string>
@@ -18388,6 +18506,67 @@ done
 		<true/>
 		<key>version</key>
 		<string>1.8.60.27</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Multimedia</string>
+		<key>description</key>
+		<string>Installs the legacy Java 6 runtime for OS X 10.7 - 10.11.</string>
+		<key>developer</key>
+		<string>Apple, Inc.</string>
+		<key>display_name</key>
+		<string>Java 6 for OS X</string>
+		<key>installed_size</key>
+		<integer>74921</integer>
+		<key>installer_item_hash</key>
+		<string>8f40dbf821e21410feab4d9e2e533c42518897b7cac5edfad895e91016f918fc</string>
+		<key>installer_item_location</key>
+		<string>plugins/Java/javaforosx-1.0.0.0.1.1247562015.dmg</string>
+		<key>installer_item_size</key>
+		<integer>65160</integer>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>AppleJava6</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>37078</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.JavaEssentials</string>
+				<key>version</key>
+				<string>1.0.0.0.1.1247562015</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>77982</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.JavaForMacOSX107</string>
+				<key>version</key>
+				<string>1.0.0.0.1.1247562015</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>206</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.JavaMDNS</string>
+				<key>version</key>
+				<string>1.0.0.0.1.1247562015</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.0.0.1.1247562015</string>
 	</dict>
 </array>
 </plist>

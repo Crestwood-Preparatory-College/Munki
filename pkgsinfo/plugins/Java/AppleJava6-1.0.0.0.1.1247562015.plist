@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>aanklewicz</string>
+		<key>creation_date</key>
+		<date>2016-03-08T14:43:25Z</date>
+		<key>munki_version</key>
+		<string>2.5.1.2627</string>
+		<key>os_version</key>
+		<string>10.11.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>category</key>
+	<string>Multimedia</string>
+	<key>description</key>
+	<string>Installs the legacy Java 6 runtime for OS X 10.7 - 10.11.</string>
+	<key>developer</key>
+	<string>Apple, Inc.</string>
+	<key>display_name</key>
+	<string>Java 6 for OS X</string>
+	<key>installed_size</key>
+	<integer>74921</integer>
+	<key>installer_item_hash</key>
+	<string>8f40dbf821e21410feab4d9e2e533c42518897b7cac5edfad895e91016f918fc</string>
+	<key>installer_item_location</key>
+	<string>plugins/Java/javaforosx-1.0.0.0.1.1247562015.dmg</string>
+	<key>installer_item_size</key>
+	<integer>65160</integer>
+	<key>minimum_os_version</key>
+	<string>10.7.0</string>
+	<key>name</key>
+	<string>AppleJava6</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>37078</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.JavaEssentials</string>
+			<key>version</key>
+			<string>1.0.0.0.1.1247562015</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>77982</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.JavaForMacOSX107</string>
+			<key>version</key>
+			<string>1.0.0.0.1.1247562015</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>206</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.JavaMDNS</string>
+			<key>version</key>
+			<string>1.0.0.0.1.1247562015</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0.0.0.1.1247562015</string>
+</dict>
+</plist>

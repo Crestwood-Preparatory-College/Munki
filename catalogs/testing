@@ -1841,6 +1841,75 @@ rm -R /Applications/FirstClass.app</string>
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Communication</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>icon_hash</key>
+		<string>434fa31eed2db112b701b760460d7b78d6cb8e9eb8f7678967ba9c32674a41ce</string>
+		<key>installer_item_hash</key>
+		<string>f645d10ca64f0f543553f03e9b654acf4813bba254525f4e39ca49e9bf5fe4f3</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.25.0.356.dmg</string>
+		<key>installer_item_size</key>
+		<integer>43556</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleName</key>
+				<string>Skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.25</string>
+				<key>CFBundleVersion</key>
+				<string>7.25.0.356</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.25.0.356</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Internet Browsers</string>
 		<key>description</key>
 		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
@@ -4815,6 +4884,75 @@ rm -R /Applications/OpenOffice.org.app</string>
 		<key>icon_hash</key>
 		<string>5cbec5cdef65ede7d4a2f6899e3e9343bb7d6c2285f1b1e217e07b635e21f839</string>
 		<key>installer_item_hash</key>
+		<string>69c416f9ee5cb60ffd91baad3db567cbc98da9f58cb5348f0ef927820a6020c9</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-49.0.2623.112.dmg</string>
+		<key>installer_item_size</key>
+		<integer>66023</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>49.0.2623.112</string>
+				<key>CFBundleVersion</key>
+				<string>2623.112</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>49.0.2623.112</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Browsers</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>icon_hash</key>
+		<string>5cbec5cdef65ede7d4a2f6899e3e9343bb7d6c2285f1b1e217e07b635e21f839</string>
+		<key>installer_item_hash</key>
 		<string>f5304f1dfadff02fe06f649fd8c7ba9b3ccc179e40e5fca93dfde2c4d6d10c4f</string>
 		<key>installer_item_location</key>
 		<string>apps/GoogleChrome-45.0.2454.99.dmg</string>
@@ -5430,6 +5568,93 @@ fi
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Programming</string>
+		<key>description</key>
+		<string>GUI application for GitHub.com</string>
+		<key>developer</key>
+		<string>GitHub</string>
+		<key>display_name</key>
+		<string>GitHub</string>
+		<key>icon_hash</key>
+		<string>501226ba93da6d61a53ffe1a5610ff84306b67bdd77051aa56eb5155ae82f60c</string>
+		<key>installer_item_hash</key>
+		<string>52d986770991d091fef9fde03b552e9f036f65d4a776bf9a0f71231d6433e453</string>
+		<key>installer_item_location</key>
+		<string>apps/GitHub/GitHub-217.dmg</string>
+		<key>installer_item_size</key>
+		<integer>36075</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.github.GitHub</string>
+				<key>CFBundleName</key>
+				<string>GitHub Desktop</string>
+				<key>CFBundleShortVersionString</key>
+				<string>Sword of Destiny</string>
+				<key>CFBundleVersion</key>
+				<string>217</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/GitHub Desktop.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>GitHub Desktop.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>GitHub</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+CLI_SOURCE="/Applications/GitHub.app/Contents/MacOS/github_cli"
+DEST_DIR="/usr/local/bin"
+if [ ! -x "${CLI_SOURCE}" ]; then
+    exit 1
+fi
+
+if [ ! -d "${DEST_DIR}" ]; then
+    /bin/mkdir -p "${DEST_DIR}"
+fi
+
+/bin/cp -f "${CLI_SOURCE}" "${DEST_DIR}/github"
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/sh
+/bin/rm -rf /Applications/GitHub.app
+/bin/rm -f /usr/local/bin/github
+</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>217</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>category</key>
@@ -5649,6 +5874,75 @@ fi
 		<true/>
 		<key>version</key>
 		<string>34.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Browsers</string>
+		<key>description</key>
+		<string>Opera products enable more than 350 million internet consumers to discover and connect with the content and services that matter most to them, no matter what device, network or location. In turn, we help advertisers reach the audiences that build value for their businesses. Opera also delivers products and services to more than 120 operators around the world, enabling them to provide a faster, more economical and better network experience to their subscribers.</string>
+		<key>developer</key>
+		<string>Opera Software Asa</string>
+		<key>display_name</key>
+		<string>Opera</string>
+		<key>icon_hash</key>
+		<string>85f3e37c84b016438047a8e2c7a2e68e1918b24eaa65a812047662e1eb5a6ba9</string>
+		<key>installer_item_hash</key>
+		<string>16babd1ccad88d8598b3615645b6711eabe208afe8b535df10eeca7c09166659</string>
+		<key>installer_item_location</key>
+		<string>apps/Opera/Opera-36.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>56865</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.operasoftware.Opera</string>
+				<key>CFBundleName</key>
+				<string>Opera</string>
+				<key>CFBundleShortVersionString</key>
+				<string>36.0</string>
+				<key>CFBundleVersion</key>
+				<string>36.0.2130.46</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/Opera.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Opera.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>Opera</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>36.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -6343,6 +6637,75 @@ fi
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Communication</string>
+		<key>description</key>
+		<string>Mozilla Thunderbird is a free and open source mail client.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Thunderbird</string>
+		<key>icon_hash</key>
+		<string>c60719061cfb37441d2c32a445e726957cf41c16b31674ec4e227045138a1383</string>
+		<key>installer_item_hash</key>
+		<string>759e6fe8a124b901c0019089964af5a770ea65ec5162ae05837820a965f31437</string>
+		<key>installer_item_location</key>
+		<string>apps/thunderbird/Thunderbird-38.7.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>68431</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.thunderbird</string>
+				<key>CFBundleName</key>
+				<string>Thunderbird</string>
+				<key>CFBundleShortVersionString</key>
+				<string>38.7.2</string>
+				<key>CFBundleVersion</key>
+				<string>38.7.2</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Thunderbird.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Thunderbird.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Thunderbird</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>38.7.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Email</string>
 		<key>description</key>
 		<string>Mozilla Thunderbird is a free and open source mail client.</string>
@@ -6734,6 +7097,71 @@ fi
 		<true/>
 		<key>version</key>
 		<string>1.4.5</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>description</key>
+		<string>Scribus is an Open Source program that brings professional page layout to Linux, BSD UNIX, Solaris, OpenIndiana, GNU/Hurd, Mac OS X, OS/2 Warp 4, eComStation, Windows and Haiku desktops with a combination of press-ready output and new approaches to page design.</string>
+		<key>developer</key>
+		<string>Scribus Team</string>
+		<key>display_name</key>
+		<string>Scribus</string>
+		<key>icon_hash</key>
+		<string>ca4cc739105691d03e8be2cd6f0c0829a0dc837088ce5ccec120a7fb545645a7</string>
+		<key>installer_item_hash</key>
+		<string>db818ae3a69ca16c1b3fb873b55903062f7b81f42d7adcc64a61ee93bf95727e</string>
+		<key>installer_item_location</key>
+		<string>apps/Scribus/Scribus-1.4.6.dmg</string>
+		<key>installer_item_size</key>
+		<integer>121410</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>net.scribus</string>
+				<key>CFBundleName</key>
+				<string>Scribus</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.4.6</string>
+				<key>path</key>
+				<string>/Applications/Scribus.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Scribus.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Scribus</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.4.6</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -7184,6 +7612,56 @@ fi
 		<true/>
 		<key>version</key>
 		<string>20.0.0.233</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Multimedia</string>
+		<key>description</key>
+		<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe® Integrated Runtime</string>
+		<key>icon_hash</key>
+		<string>6cd205104704555f638cc4a0617d08ff569cb405b5b826558424d2d08b511c6a</string>
+		<key>installed_size</key>
+		<integer>133279</integer>
+		<key>installer_item_hash</key>
+		<string>f1a72428e8d18bff0026eff732929c42733b374513aaf248e95132d6bbd5f6d6</string>
+		<key>installer_item_location</key>
+		<string>apps/adobe/AdobeAIR-21.0.0.176.pkg</string>
+		<key>installer_item_size</key>
+		<integer>56792</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeAIR</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>133279</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.AIR</string>
+				<key>version</key>
+				<string>21.0.0.176</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>21.0.0.176</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -8081,6 +8559,75 @@ fi
 		<true/>
 		<key>version</key>
 		<string>41.0.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Browsers</string>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>icon_hash</key>
+		<string>8d6b01e0fced090f31c6d040f8bb24926013522ee6cccf1b438a4a2430574aa6</string>
+		<key>installer_item_hash</key>
+		<string>4ffe9b87c5474555d6ca29e4b44725b2d1f71a873b84e4883119516d8657cac4</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-45.0.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>82534</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>45.0.1</string>
+				<key>CFBundleVersion</key>
+				<string>4516.3.15</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>45.0.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -11999,6 +12546,520 @@ fi
 		</array>
 		<key>version</key>
 		<string>14.5.8</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Expression Media</string>
+			<string>Firefox</string>
+			<string>Google Chrome</string>
+			<string>Microsoft Cert Manager</string>
+			<string>Microsoft Chart Converter</string>
+			<string>Microsoft Clip Gallery</string>
+			<string>Microsoft Communicator</string>
+			<string>Microsoft Entourage</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Excel</string>
+			<string>Microsoft Graph</string>
+			<string>Microsoft Help Viewer</string>
+			<string>Microsoft Language Register</string>
+			<string>Microsoft Lync</string>
+			<string>Microsoft Messenger</string>
+			<string>Microsoft Outlook</string>
+			<string>Microsoft PowerPoint</string>
+			<string>Microsoft Query</string>
+			<string>Microsoft Word</string>
+			<string>MSN Messenger</string>
+			<string>My Day</string>
+			<string>Opera</string>
+			<string>Organization Chart</string>
+			<string>Remote Desktop Connection</string>
+			<string>Safari</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Office</string>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p&gt;This update improves security. It includes fixes for vulnerabilities that an attacker can use to overwrite the contents of your computer's memory with malicious code.&lt;/p&gt;
+
+&lt;p&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=723384" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=723384&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For additional assistance, or to obtain a downloadable version of this update, visit the &lt;a href="https://go.microsoft.com/fwlink/?LinkId=216459" target="_blank"&gt;Microsoft Web site&lt;/a&gt;.&lt;/p&gt;
+&lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Office 2011 14.6.2 Update</string>
+		<key>icon_hash</key>
+		<string>96d5cca3d3139da0aa5ced119fdcf1b63f5292f3bc25bd645c7147f678617a61</string>
+		<key>installed_size</key>
+		<integer>338720</integer>
+		<key>installer_item_hash</key>
+		<string>0a03d306b947fa40bd616d55ce901cdca0aa980c0233ee42ece3d7d2f1c6ba9d</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2011/Office2011-1462Update_EN-US-14.6.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>116122</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>14.6.2</string>
+				<key>CFBundleVersion</key>
+				<string>14.6.2</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Office 2011/Office/MicrosoftComponentPlugin.framework</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.8</string>
+		<key>name</key>
+		<string>Office2011_update</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.quit.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>4</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.readme.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>12673</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.core_resources.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>22459</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.ooxml.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>7</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.clipart.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>35</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.equationeditor_resources.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>25</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.graph_resources.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>33</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.langregister.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>5</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.sharepointbrowserplugin_resources.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1804</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.word_resources.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>33</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.word_wizards.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1904</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.excel_resources.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>180</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.excel_templates.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>6649</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.query.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>858</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.solver.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>908</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.powerpoint_resources.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>5359</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.outlook_resources.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>11</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.outlook_scriptmenuitems.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_catalan.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_danish.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_dutch.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1807</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_english.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>7</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_finnish.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1349</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_french.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1852</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_german.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_italian.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1783</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_italian_grammar.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>280</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_japanese.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>741</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_norwegian.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_portuguese.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_brazilian.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>373</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_spanish.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>373</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_swedish.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_czech.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_polish.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_russian.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_turkish.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>401</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.dcc_resources.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>241</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.fonts.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>11241</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.automator.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>55</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.automator_workflow.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>6</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.equationeditor.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>3622</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.graph.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>242</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.sharepointbrowserplugin.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>36961</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.word.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>27717</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.excel.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>19521</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.powerpoint.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>24693</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.outlook.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>5524</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.vb.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>632</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.dcc.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.fix_permissions.pkg.14.6.2</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>142632</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.core.pkg.14.6.2.update</string>
+				<key>version</key>
+				<string>14.6.2</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2011_update-14.1.0</string>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>Office2011</string>
+		</array>
+		<key>version</key>
+		<string>14.6.2</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -17400,6 +18461,55 @@ done
 		<key>display_name</key>
 		<string>Puppet Agent</string>
 		<key>installed_size</key>
+		<integer>72759</integer>
+		<key>installer_item_hash</key>
+		<string>7c76551c60212070715234dcf2519632b5918149812000814dfb0beea1137781</string>
+		<key>installer_item_location</key>
+		<string>support/Puppet/puppetagent10.10-1.4.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>20691</integer>
+		<key>maximum_os_version</key>
+		<string>10.10.99</string>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>PuppetAgent</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>72759</integer>
+				<key>packageid</key>
+				<string>com.puppetlabs.puppet-agent</string>
+				<key>version</key>
+				<string>1.4.1</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.4.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Information Technology</string>
+		<key>description</key>
+		<string>Puppet is a configuration management solution that allows you to define the state of your IT infrastructure, and then automatically enforces the desired state</string>
+		<key>developer</key>
+		<string>Puppetlabs</string>
+		<key>display_name</key>
+		<string>Puppet Agent</string>
+		<key>installed_size</key>
 		<integer>75156</integer>
 		<key>installer_item_hash</key>
 		<string>e2a10faa7c5a12c10b01888205e41ca4a4ff4b73d40c1a4c2dda47b59b3da0d7</string>
@@ -17735,6 +18845,58 @@ done
 		<true/>
 		<key>version</key>
 		<string>20.0.0.267</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Multimedia</string>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>icon_hash</key>
+		<string>d3067d9575cab38a71f2313a30da44e21c3093818b5535dbaa8519bfd67b8ac6</string>
+		<key>installed_size</key>
+		<integer>18072</integer>
+		<key>installer_item_hash</key>
+		<string>12c96c3133e1a214ae8a1c7a3a88982ae670517ba1f1c5bed94c5dedfa2b3c09</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-21.0.0.213.dmg</string>
+		<key>installer_item_size</key>
+		<integer>17261</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>18072</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>21.0.0.213</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>21.0.0.213</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -18567,6 +19729,77 @@ done
 		<true/>
 		<key>version</key>
 		<string>1.0.0.0.1.1247562015</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Multimedia</string>
+		<key>description</key>
+		<string>Java SE Runtime Environment 8 enables support for running Java-powered applets and applications.</string>
+		<key>developer</key>
+		<string>Oracle</string>
+		<key>display_name</key>
+		<string>Oracle Java 8</string>
+		<key>icon_hash</key>
+		<string>85d6f9a6175ed5303b108799634ec4ad0a6b8964f1b8e521c8df0fc2253d1637</string>
+		<key>installed_size</key>
+		<integer>175016</integer>
+		<key>installer_item_hash</key>
+		<string>8d5ee6c3711313579f17eaa29f7995da7c14c84efe7dfe18cf0f73b56537d47c</string>
+		<key>installer_item_location</key>
+		<string>plugins/Java/OracleJava8-1.8.77.03.pkg</string>
+		<key>installer_item_size</key>
+		<integer>61845</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>1.8.0_77</string>
+				<key>CFBundleVersion</key>
+				<string>11.77.2.03</string>
+				<key>path</key>
+				<string>/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/deploy/JavaControlPanel.prefPane</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.3</string>
+		<key>name</key>
+		<string>OracleJava8</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>175016</integer>
+				<key>packageid</key>
+				<string>com.oracle.jre</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/sh
+            # From http://www.java.com/en/download/help/mac_uninstall_java.xml
+            rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin
+            pkgutil --forget com.oracle.jre
+            </string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.8.77.03</string>
 	</dict>
 </array>
 </plist>

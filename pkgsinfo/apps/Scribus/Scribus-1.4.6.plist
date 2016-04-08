@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>aanklewicz</string>
+		<key>creation_date</key>
+		<date>2016-04-08T16:16:59Z</date>
+		<key>munki_version</key>
+		<string>2.5.1.2627</string>
+		<key>os_version</key>
+		<string>10.11.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>production</string>
+	</array>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>description</key>
+	<string>Scribus is an Open Source program that brings professional page layout to Linux, BSD UNIX, Solaris, OpenIndiana, GNU/Hurd, Mac OS X, OS/2 Warp 4, eComStation, Windows and Haiku desktops with a combination of press-ready output and new approaches to page design.</string>
+	<key>developer</key>
+	<string>Scribus Team</string>
+	<key>display_name</key>
+	<string>Scribus</string>
+	<key>installer_item_hash</key>
+	<string>db818ae3a69ca16c1b3fb873b55903062f7b81f42d7adcc64a61ee93bf95727e</string>
+	<key>installer_item_location</key>
+	<string>apps/Scribus/Scribus-1.4.6.dmg</string>
+	<key>installer_item_size</key>
+	<integer>121410</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>net.scribus</string>
+			<key>CFBundleName</key>
+			<string>Scribus</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.4.6</string>
+			<key>path</key>
+			<string>/Applications/Scribus.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Scribus.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Scribus</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.4.6</string>
+</dict>
+</plist>
